@@ -121,3 +121,27 @@
 // generateTheString(2);
 // generateTheString(7);
 // generateTheString(5);
+
+// 1437. Check If All 1's Are at Least Length K Places Away
+
+// const kLengthApart = function(nums, k) {
+//     let i = nums.indexOf(1);
+//     while( i !== nums.lastIndexOf(1)) {
+//         let j = i + 1;
+//         for (let j = i + 1; j < nums.length; j++) {
+//             if (nums[j] === 1) {
+//                 if (j - i <= k) {
+//                     return false
+//                 } else {
+//                     i = j;
+//                     break;
+//                 }
+//             }
+//         }
+//     }
+//     return true;
+// };
+
+// kLengthApart([1, 0, 0, 0, 1, 0, 0, 1], 2);
+// kLengthApart([1, 0, 0, 1, 0, 1], 2);
+// kLengthApart([0, 0, 1, 0], 4);

@@ -262,3 +262,26 @@
 // modifyString("?zs")
 // modifyString("ubv?w");
 // modifyString("u?v?wd??");
+
+// 1588. Sum of All Odd Length Subarrays
+
+// const sumOddLengthSubarrays = function(arr) {
+//     let sum = 0;
+//     let i = 0;
+//     let len = 1;
+//     while (len <= arr.length) {
+//         sum += arr.slice(i, len + i).reduce((total, el) => total + el);
+//         i++;
+//         if (!arr[i + len - 1]) {
+//             len += 2;
+//             i = 0;
+//         }
+//     };
+//     return sum;
+// };
+
+// Testing
+
+// sumOddLengthSubarrays([1, 4, 2, 5, 3]);
+// sumOddLengthSubarrays([1, 2]);
+// sumOddLengthSubarrays([10, 11, 12]);

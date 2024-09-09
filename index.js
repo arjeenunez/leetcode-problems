@@ -154,6 +154,31 @@
 //     return ((checkHigh - checkLow) / 2) + 1
 // };
 
+// Testing
+
 // countOdds(3, 7);
 // countOdds(8, 10);
 // countOdds(0, 10);
+
+// 1496. Path Crossing
+
+// const isPathCrossing = function(path) {
+//     let x = y = 0;
+//     const set = new Set();
+//     set.add(`${x}-${y}`);
+//     const dir = {N: 1, S: -1, E: +1, W: -1};
+//     for (let letter of path) {
+//         if (letter === "N" || letter === "S") {
+//             y += dir[letter];
+//         } else {
+//             x += dir[letter];
+//         }
+//         set.add(`${x}-${y}`);
+//     }
+//     console.log(set)
+//     return set.size !== path.length + 1;
+// };
+
+// Testing
+
+// isPathCrossing("NESWW");

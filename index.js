@@ -209,3 +209,19 @@
 
 // findKthPositive([2, 3, 4, 7, 11], 5);
 // findKthPositive([2, 3, 4, 7, 11], 5);
+
+// 1544. Make The String Great
+
+// const makeGood = function(s) {
+//     for (let i = 1; i < s.length; i++) {
+//         if (s[i] !== s[i - 1] && s[i].toLowerCase() === s[i - 1].toLowerCase()) {
+//             s = s.slice(0, i - 1) + s.slice(i + 1);
+//             i = 0;
+//         }
+//     }
+//     return s;
+// };
+
+// makeGood("leEeetcode");
+// makeGood("abBAcC");
+// makeGood("s");

@@ -182,3 +182,16 @@
 // Testing
 
 // isPathCrossing("NESWW");
+
+// 1480. Running Sum of 1d Array
+
+// const runningSum = function(nums) {
+//     let total = 0;
+//     return nums.map(el => total += el);
+// };
+
+// Testing
+
+// runningSum([1, 2, 3, 4]);
+// runningSum([1, 1, 1, 1, 1]);
+// runningSum([3, 1, 2, 10, 1]);

@@ -145,3 +145,15 @@
 // kLengthApart([1, 0, 0, 0, 1, 0, 0, 1], 2);
 // kLengthApart([1, 0, 0, 1, 0, 1], 2);
 // kLengthApart([0, 0, 1, 0], 4);
+
+// 1523. Count Odd Numbers in an Interval Range
+
+// const countOdds = function(low, high) {
+//     let checkLow = low % 2 !== 0 ? low : low + 1;
+//     let checkHigh = high % 2 !== 0 ? high : high - 1;
+//     return ((checkHigh - checkLow) / 2) + 1
+// };
+
+// countOdds(3, 7);
+// countOdds(8, 10);
+// countOdds(0, 10);

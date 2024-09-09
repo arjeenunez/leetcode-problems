@@ -225,3 +225,12 @@
 // makeGood("leEeetcode");
 // makeGood("abBAcC");
 // makeGood("s");
+
+// 1550. Three Consecutive Odds
+
+// const threeConsecutiveOdds = function(arr) {
+//     return arr.filter((el, idx, arr) => arr[idx - 1] % 2 === 1 && el % 2 === 1 && arr[idx + 1] % 2 === 1);
+// };
+
+// threeConsecutiveOdds([2, 6, 4, 1]);
+// threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]);

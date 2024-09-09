@@ -207,6 +207,8 @@
 //     return i;
 // };
 
+// Testing
+
 // findKthPositive([2, 3, 4, 7, 11], 5);
 // findKthPositive([2, 3, 4, 7, 11], 5);
 
@@ -222,6 +224,8 @@
 //     return s;
 // };
 
+// Testing
+
 // makeGood("leEeetcode");
 // makeGood("abBAcC");
 // makeGood("s");
@@ -232,5 +236,29 @@
 //     return arr.filter((el, idx, arr) => arr[idx - 1] % 2 === 1 && el % 2 === 1 && arr[idx + 1] % 2 === 1);
 // };
 
+// Testing
+
 // threeConsecutiveOdds([2, 6, 4, 1]);
 // threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]);
+
+// 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
+
+// const modifyString = function(s) {
+//     const rando = () => Math.floor(Math.random() * 26) + 97;
+//     const arr = [...s];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === "?") {
+//             arr[i] = String.fromCharCode(rando());
+//             while (arr[i - 1] === arr[i] || arr[i] === arr[i + 1]) {
+//                 arr[i] = String.fromCharCode(rando());
+//             }
+//         }
+//     }
+//     return arr.join("")
+// };
+
+// Testing
+
+// modifyString("?zs")
+// modifyString("ubv?w");
+// modifyString("u?v?wd??");

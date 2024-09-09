@@ -195,3 +195,17 @@
 // runningSum([1, 2, 3, 4]);
 // runningSum([1, 1, 1, 1, 1]);
 // runningSum([3, 1, 2, 10, 1]);
+
+// 1539. Kth Missing Positive Number
+
+// const findKthPositive = function(arr, k) {
+//     let i = 0;
+//     while (k !== 0) {
+//         i++;
+//         if (!arr.includes(i)) k--;
+//     }
+//     return i;
+// };
+
+// findKthPositive([2, 3, 4, 7, 11], 5);
+// findKthPositive([2, 3, 4, 7, 11], 5);

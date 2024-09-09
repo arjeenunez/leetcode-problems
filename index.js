@@ -106,3 +106,18 @@
 // findTheDistanceValue([4, 5, 8], [10, 9, 1, 8], 2);
 // findTheDistanceValue([1, 4, 2, 3], [-4, -3, 6, 10, 20, 30], 3);
 // findTheDistanceValue([2, 1, 100, 3], [-5, -2, 10, -3, 7], 6);
+
+// 1374. Generate a String With Characters That Have Odd Counts
+
+// const generateTheString = function(n) {
+//     const firstLen = n % 2 !== 0 ? n : n - 1;
+//     const secondLen = n - firstLen;
+//     const result = [...new Array(firstLen).fill("a"), ...new Array(secondLen).fill("b")];
+//     console.log(result.join(""));
+//     return result.join("");
+// };
+
+// generateTheString(4);
+// generateTheString(2);
+// generateTheString(7);
+// generateTheString(5);

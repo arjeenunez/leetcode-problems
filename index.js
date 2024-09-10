@@ -285,3 +285,30 @@
 // sumOddLengthSubarrays([1, 4, 2, 5, 3]);
 // sumOddLengthSubarrays([1, 2]);
 // sumOddLengthSubarrays([10, 11, 12]);
+
+1566. Detect Pattern of Length M Repeated K or More Times
+
+const containsPattern = function(arr, m, k) {
+    for (let i = 0; arr[i + m - 1]; i++) {
+        let check = 1;
+        let temp = "";
+        for (let j = i; arr[j + m - 1]; j += m) {
+            let comp = arr.slice(j, m + j).join("-");
+            if (temp === comp) {
+                check++;
+                if (check >= k) return true
+            } else {
+                check = 1;
+            }
+            temp = comp; 
+        }
+    }
+    return false;
+};
+
+containsPattern([1, 2, 4, 4, 4, 4], 1, 3);
+containsPattern([1, 2, 1, 2, 1, 1, 1, 3], 2, 2);
+containsPattern([1, 2, 1, 2, 1, 3], 2, 3);
+containsPattern([1, 2, 3, 1, 2], 2, 2);
+containsPattern([2, 2, 2, 2], 2, 3);
+containsPattern([2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 2], 1, 4);

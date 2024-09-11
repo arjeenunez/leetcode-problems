@@ -286,29 +286,48 @@
 // sumOddLengthSubarrays([1, 2]);
 // sumOddLengthSubarrays([10, 11, 12]);
 
-1566. Detect Pattern of Length M Repeated K or More Times
+// 1566. Detect Pattern of Length M Repeated K or More Times
 
-const containsPattern = function(arr, m, k) {
-    for (let i = 0; arr[i + m - 1]; i++) {
-        let check = 1;
-        let temp = "";
-        for (let j = i; arr[j + m - 1]; j += m) {
-            let comp = arr.slice(j, m + j).join("-");
-            if (temp === comp) {
-                check++;
-                if (check >= k) return true
-            } else {
-                check = 1;
-            }
-            temp = comp; 
-        }
-    }
-    return false;
-};
+// const containsPattern = function(arr, m, k) {
+//     for (let i = 0; arr[i + m - 1]; i++) {
+//         let check = 1;
+//         let temp = "";
+//         for (let j = i; arr[j + m - 1]; j += m) {
+//             let comp = arr.slice(j, m + j).join("-");
+//             if (temp === comp) {
+//                 check++;
+//                 if (check >= k) return true
+//             } else {
+//                 check = 1;
+//             }
+//             temp = comp; 
+//         }
+//     }
+//     return false;
+// };
 
-containsPattern([1, 2, 4, 4, 4, 4], 1, 3);
-containsPattern([1, 2, 1, 2, 1, 1, 1, 3], 2, 2);
-containsPattern([1, 2, 1, 2, 1, 3], 2, 3);
-containsPattern([1, 2, 3, 1, 2], 2, 2);
-containsPattern([2, 2, 2, 2], 2, 3);
-containsPattern([2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 2], 1, 4);
+// containsPattern([1, 2, 4, 4, 4, 4], 1, 3);
+// containsPattern([1, 2, 1, 2, 1, 1, 1, 3], 2, 2);
+// containsPattern([1, 2, 1, 2, 1, 3], 2, 3);
+// containsPattern([1, 2, 3, 1, 2], 2, 2);
+// containsPattern([2, 2, 2, 2], 2, 3);
+// containsPattern([2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 2], 1, 4);
+
+// 2220. Minimum Bit Flips to Convert Number
+
+// const minBitFlips = function(start, goal) {
+//     let totalFlips = 0;
+//     const remainder = val => val ? val % 2 : 0;
+//     while (start > 0 || goal > 0) {
+//         if (remainder(start) !== remainder(goal)) totalFlips++;
+//         start = Math.floor(start / 2);
+//         goal = Math.floor(goal / 2);
+//     }
+//     console.log(totalFlips);
+//     return totalFlips;
+// };
+
+// Testing
+
+// minBitFlips(3, 4);
+// minBitFlips(10, 7);

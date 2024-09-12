@@ -331,3 +331,19 @@
 
 // minBitFlips(3, 4);
 // minBitFlips(10, 7);
+
+// 1684. Count the Number of Consistent Strings
+
+// const countConsistentStrings = function(allowed, words) {
+//     const filteredWords = words.filter(word => {
+//         for (let i = 0; i < word.length; i++) {
+//             if (!allowed.includes(word[i])) return "";
+//         }
+//         return word;
+//     })
+//     return filteredWords.length
+// };
+
+// countConsistentStrings("ab", ["ad", "bd", "aaab", "baa", "badab"]);
+// countConsistentStrings("abc", ["a", "b", "c", "ab", "ac", "bc", "abc"]);
+// countConsistentStrings("cad", ["cc", "acd", "b", "ba", "bac", "bad", "ac", "d"]);

@@ -350,7 +350,7 @@
 
 // 1684. Count the Number of Consistent Strings
 
-// var countConsistentStrings = function(allowed, words) {
+// const countConsistentStrings = function(allowed, words) {
 //     const filteredWords = words.filter(word => {
 //         for (let i = 0; i < word.length; i++) {
 //             if (!allowed.includes(word[i])) return "";
@@ -361,3 +361,13 @@
 // };
 
 // countConsistentStrings("ab", ["ad", "bd", "aaab", "baa", "badab"]);
+
+// 1310. XOR Queries of a Subarray
+
+// const xorQueries = function(arr, queries) {
+//     const newQueries = queries.map(query => arr.slice(query[0], query[1] + 1).reduce((total, el) => total ^ el));
+//     return newQueries;
+// };
+
+// xorQueries([1, 3, 4, 8], [[0, 1], [1, 2], [0, 3], [3, 3]]);
+// xorQueries([4, 8, 2, 10], [[2, 3], [1, 3], [0, 0], [0, 3]]);

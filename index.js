@@ -371,3 +371,20 @@
 
 // xorQueries([1, 3, 4, 8], [[0, 1], [1, 2], [0, 3], [3, 3]]);
 // xorQueries([4, 8, 2, 10], [[2, 3], [1, 3], [0, 0], [0, 3]]);
+
+// 2419. Longest Subarray With Maximum Bitwise AND
+
+// const longestSubarray = function(nums) {
+//     const maxim = Math.max(...nums);
+//     let counter = 0;
+//     let len = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         (nums[i] & maxim) === maxim ? counter++ : counter = 0;
+//         len = Math.max(len, counter);
+//     }
+//     return len;
+// }
+
+// longestSubarray([1, 2, 3, 3, 2, 2]);
+// longestSubarray([1, 2, 3, 4]);
+// longestSubarray([100, 5, 5]);

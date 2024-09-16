@@ -388,3 +388,29 @@
 // longestSubarray([1, 2, 3, 3, 2, 2]);
 // longestSubarray([1, 2, 3, 4]);
 // longestSubarray([100, 5, 5]);
+
+// 1370. Increasing Decreasing String
+
+// const sortString = function(s) {
+
+//     const letters = [...new Set(s)].sort();
+//     s = [...s];
+//     let newStr = "";
+//     let i = 0;
+
+//     while (s.length) {
+//         console.log(letters[i]);
+//         if (s.indexOf(letters[i]) !== -1) {
+//             newStr += s.splice(s.indexOf(letters[i]), 1);
+//         }
+//         i++;
+//         if (i >= letters.length) {
+//             letters.reverse();
+//             i = 0;
+//         }
+//     }
+//     return newStr;
+// };
+
+// sortString("aaaabbbbcccc");
+// sortString("rat");

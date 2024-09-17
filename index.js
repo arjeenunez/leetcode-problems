@@ -414,3 +414,13 @@
 
 // sortString("aaaabbbbcccc");
 // sortString("rat");
+
+// 884. Uncommon Words from Two Sentences
+
+// const uncommonFromSentences = function(s1, s2) {
+//     return [...s1.split(" "), ...s2.split(" ")].filter((el, i, arr) => arr.filter(e => e === el).length === 1);
+// };
+
+// uncommonFromSentences("this apple is sweet", "this apple is sour");
+
+// uncommonFromSentences("apple apple", "banana");

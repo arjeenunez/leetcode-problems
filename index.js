@@ -422,5 +422,14 @@
 // };
 
 // uncommonFromSentences("this apple is sweet", "this apple is sour");
-
 // uncommonFromSentences("apple apple", "banana");
+
+// 2727. Is Object Empty
+
+// const isEmpty = function(obj) {
+//     return !Object.values(obj).length ? true : false;
+// };
+
+// isEmpty({ "x": 5, "y": 42 });
+// isEmpty({});
+// isEmpty([null, false, 0]);

@@ -433,3 +433,25 @@
 // isEmpty({ "x": 5, "y": 42 });
 // isEmpty({});
 // isEmpty([null, false, 0]);
+
+// 1002. Find Common Characters
+
+// const commonChars = function(words) {
+//     let word = [];
+//     let check = 0;
+//     for (const letter of words[0]) {
+//         check = 0;
+//         for (let j = 1; j < words.length; j++) {
+//             if (words[j].includes(letter)) {
+//                 words[j] = words[j].replace(letter, "");
+//             } else {
+//                 check++;
+//             }
+//         }
+//         if (check === 0) word.push(letter);
+//     }
+//     return word;
+// };
+
+// commonChars(["bella", "label", "roller"]);
+// commonChars(["cool", "lock", "cook"]);

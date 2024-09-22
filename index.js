@@ -455,3 +455,22 @@
 
 // commonChars(["bella", "label", "roller"]);
 // commonChars(["cool", "lock", "cook"]);
+
+// 806. Number of Lines To Write String
+
+// const numberOfLines = function(widths, s) {
+//     let rows = 0;
+//     let total = 0;
+//     for (let i = 0; i < s.length; i++) {
+//         total += widths[s[i].charCodeAt() - 97];
+//         if (total > 100) i--;
+//         if (total > 100 || total % 100 === 0) {
+//             rows++;
+//             total = 0;
+//         }
+//     }
+//     return [rows + Math.ceil(total / 100), !total ? 100 : total];
+// };
+
+// numberOfLines([10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "abcdefghijklmnopqrstuvwxyz");
+// numberOfLines([4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "bbbcccdddaaa");

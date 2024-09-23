@@ -474,3 +474,24 @@
 
 // numberOfLines([10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "abcdefghijklmnopqrstuvwxyz");
 // numberOfLines([4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "bbbcccdddaaa");
+
+// 941. Valid Mountain Array
+
+// const validMountainArray = function(arr) {
+//     const mountainTop = Math.max(...arr);
+//     const mountainIdx = arr.indexOf(mountainTop);
+//     const upArr = arr.slice(0, mountainIdx + 1);
+//     const downArr = arr.slice(mountainIdx);
+//     if (upArr.length <=1 || downArr.length <= 1) return false;
+//     let i = 0;
+//     while (upArr[i] !== undefined || downArr[i] !== undefined) {
+//         if (upArr[i] >= upArr[i + 1] && upArr[i + 1]) return false;
+//         if (downArr[i] <= downArr[i + 1] && downArr[i + 1]) return false;
+//         i++;
+//     }
+//     return true;
+// };
+
+// validMountainArray([2, 1]);
+// validMountainArray([3, 5, 5]);
+// validMountainArray([0, 3, 2, 1]);

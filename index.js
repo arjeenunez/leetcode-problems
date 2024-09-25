@@ -495,3 +495,16 @@
 // validMountainArray([2, 1]);
 // validMountainArray([3, 5, 5]);
 // validMountainArray([0, 3, 2, 1]);
+
+// 3280. Convert Date to Binary
+
+// const convertDateToBinary = function(date) {
+//     return date
+//             .split("-")
+//             .map(el => (+el).toString(2))
+//             .join("-");
+    
+// };
+
+// convertDateToBinary("2080-02-29");
+// convertDateToBinary("1900-01-01");

@@ -508,3 +508,17 @@
 
 // convertDateToBinary("2080-02-29");
 // convertDateToBinary("1900-01-01");
+
+// 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
+
+// const isPrefixOfWord = function(sentence, searchWord) {
+//     const words = sentence.split(" ");
+//     for (let [idx, word] of words.entries()) {
+//         if (!word.indexOf(searchWord)) return idx + 1; 
+//     }
+//     return -1;
+// };
+
+// isPrefixOfWord("i love eating burger", "burg");
+// isPrefixOfWord("this problem is an easy problem", "pro");
+// isPrefixOfWord("i am tired", "you");

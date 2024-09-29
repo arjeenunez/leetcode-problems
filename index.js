@@ -522,3 +522,23 @@
 // isPrefixOfWord("i love eating burger", "burg");
 // isPrefixOfWord("this problem is an easy problem", "pro");
 // isPrefixOfWord("i am tired", "you");
+
+// 1592. Rearrange Spaces Between Words
+
+const reorderSpaces = function(text) {
+    const wordArr = text.split(" ").filter(el => el);
+    const totalWords = wordArr.length;
+    const totalSpace = [...text].reduce((total, el) => el === " " ? ++total : total, 0);
+    const evenSpace = totalWords === 1 ? 0 : Math.floor(totalSpace / (totalWords - 1));
+    const remSpace = totalSpace - (evenSpace * (totalWords - 1));
+    let result = "";
+    for (let i = 0; i < wordArr.length - 1; i++) {
+        result += wordArr[i].padEnd(wordArr[i].length + evenSpace, " ");
+    }
+    result += wordArr.at(-1);
+    return result.padEnd(result.length + remSpace, " ");
+};
+
+reorderSpaces("  this   is  a sentence ");
+reorderSpaces(" practice   makes   perfect");
+reorderSpaces("this   is  a sentence ");

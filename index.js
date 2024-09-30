@@ -554,3 +554,20 @@
 // isPalindrome(121);
 // isPalindrome(-121);
 // isPalindrome(10);
+
+// 859. Buddy Strings
+
+// const buddyStrings = function(s, goal) {
+//     if (s.length !== goal.length) return false;
+//     const strArr = [];
+//     [...s].forEach((el, i) => el !== goal[i] ? strArr.push(i) : null);
+//     const [i, j] = strArr;
+//     if (strArr.length > 2) return false;
+//     if (!strArr.length) return s.length !== new Set(s).size;
+//     if (s[i] === goal[j] && goal[i] === s[j]) return true;
+//     return false;
+// };
+
+// buddyStrings("ab", "ba");
+// buddyStrings("ab", "ab");
+// buddyStrings("aa", "aa");

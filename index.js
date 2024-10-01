@@ -571,3 +571,21 @@
 // buddyStrings("ab", "ba");
 // buddyStrings("ab", "ab");
 // buddyStrings("aa", "aa");
+
+// 1232. Check If It Is a Straight Line
+
+// const checkStraightLine = function(coordinates) {
+//     let temp = null;
+//     for (let i = 1; i < coordinates.length; i++) {
+//         let [x2, y2] = coordinates[i];
+//         let [x1, y1] = coordinates[i - 1];
+//         let current = x2 - x1 === 0 ? null : (y2 - y1) / (x2 - x1);
+//         if (i > 1 && current !== temp) return false;
+//         temp = current;
+//     }
+//     return true;
+// };
+
+// checkStraightLine([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]);
+// checkStraightLine([[1, 1], [2, 2], [3, 4], [4, 5], [5, 6], [7, 7]]);
+// checkStraightLine([[0, 0], [0, 1], [0, -1]]);

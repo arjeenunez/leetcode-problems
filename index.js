@@ -589,3 +589,17 @@
 // checkStraightLine([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]);
 // checkStraightLine([[1, 1], [2, 2], [3, 4], [4, 5], [5, 6], [7, 7]]);
 // checkStraightLine([[0, 0], [0, 1], [0, -1]]);
+
+// 1317. Convert Integer to the Sum of Two No-Zero Integers
+
+// const getNoZeroIntegers = function(n) {
+//     for (let i = n; i >= 0; i--) {
+//         if (i.toString().includes("0")) continue;
+//         if ((n - i).toString().includes("0")) continue;
+//         return [i, n - i];
+//     }
+// };
+
+// getNoZeroIntegers(2);
+// getNoZeroIntegers(11);
+// getNoZeroIntegers(1010);

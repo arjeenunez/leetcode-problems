@@ -603,3 +603,41 @@
 // getNoZeroIntegers(2);
 // getNoZeroIntegers(11);
 // getNoZeroIntegers(1010);
+
+// 1497. Check If Array Pairs Are Divisible by k
+
+// const canArrange = function(arr, k) {
+//     const arrMap = new Map();
+//     const arrSet = new Set();
+//     arr.forEach(el => {
+//         let freq = ((el % k) + k) % k;
+//         arrMap.get(freq) ? arrMap.set(freq, arrMap.get(freq) + 1) : arrMap.set(freq, 1);
+//     });
+//     for (let [key, value] of arrMap.entries()) {
+//         if (arrSet.has(key)) continue;
+//         if ((key === 0 && value % 2 === 0) || key === k ) continue;
+//         if (value !== arrMap.get(k - key)) return false;
+//         arrSet.add(key);
+//         arrSet.add(k - key);
+//     }
+//     return true;
+// };
+
+// canArrange([1, 2, 3, 4, 5, 10, 6, 7, 8, 9], 5);
+// canArrange([1, 2, 3, 4, 5, 6], 7);
+// canArrange([1, 2, 3, 4, 5, 6], 10);
+
+// 1331. Rank Transform of an Array
+
+// const arrayRankTransform = function(arr) {
+//     const rankArr = [...new Set(arr)].sort((a, b) => a - b);
+//     const obj = rankArr.reduce((newObj, el, idx) => {
+//         newObj[el] = idx + 1;
+//         return newObj;
+//     }, {});
+//     return arr.map(el => obj[el]);
+// };
+
+// arrayRankTransform([40, 10, 20, 30]);
+// arrayRankTransform([100, 100, 100]);
+// arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12]);

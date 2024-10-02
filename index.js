@@ -641,3 +641,26 @@
 // arrayRankTransform([40, 10, 20, 30]);
 // arrayRankTransform([100, 100, 100]);
 // arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12]);
+
+// 1071. Greatest Common Divisor of Strings
+
+// const gcdOfStrings = function(str1, str2) {
+//     const [minim, maxim] = [str1, str2].sort((a, b) => a.length - b.length);
+//     if (!str1.startsWith(str2[0])) return "";
+    
+//     let result = "";
+//     const getLength = (str, strRep) => str.replaceAll(strRep, "").length;
+
+//     for (let i = 1; i <= minim.length; i++) {
+//         let temp = minim.slice(0, i);
+//         console.log(temp);
+//         if (!getLength(maxim, temp) && !getLength(minim, temp)) {
+//             result = temp.length > result.length ? temp : result;
+//         };
+//     }
+//     return result;
+// };
+
+// gcdOfStrings("ABCABC", "ABC");
+// gcdOfStrings("ABABAB", "ABAB");
+// gcdOfStrings("ABABABAB", "ABAB");

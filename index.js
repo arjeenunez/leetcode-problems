@@ -664,3 +664,18 @@
 // gcdOfStrings("ABCABC", "ABC");
 // gcdOfStrings("ABABAB", "ABAB");
 // gcdOfStrings("ABABABAB", "ABAB");
+
+// 1450. Number of Students Doing Homework at a Given Time
+
+// const busyStudent = function(startTime, endTime, queryTime) {
+//     return startTime.reduce((total, el, idx) => {
+//         if ([el, endTime[idx], queryTime].sort((a, b) => a - b)[1] === queryTime) {
+//             return total += 1;
+//         } else {
+//             return total
+//         }
+//     }, 0);
+// };
+
+// busyStudent([1, 2, 3], [3, 2, 7], 4);
+// busyStudent([4], [4], 4);

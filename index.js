@@ -679,3 +679,16 @@
 
 // busyStudent([1, 2, 3], [3, 2, 7], 4);
 // busyStudent([4], [4], 4);
+
+// 2696. Minimum String Length After Removing Substrings
+
+// const minLength = function(s) {
+//     while(s.includes("AB") || s.includes("CD")) {
+//         s = s.replaceAll("AB", "");
+//         s = s.replaceAll("CD", "");
+//     }
+//     return s.length;
+// };
+
+// minLength("ABFCACDB");
+// minLength("ACBBD")

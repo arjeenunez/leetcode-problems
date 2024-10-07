@@ -692,3 +692,18 @@
 
 // minLength("ABFCACDB");
 // minLength("ACBBD")
+
+// 125. Valid Palindrome
+
+// const isPalindrome = function(s) {
+//     s = s.replaceAll(/[^a-zA-Z0-9]/gi, "").toLowerCase();
+//     for (let i = 0; i < s.length; i++) {
+//         if (s[i] !== s[s.length - 1 - i]) return false;
+//         if (i === (s.length - 1 - i)) return true;
+//     }
+//     return true;
+// };
+
+// isPalindrome("A man, a plan, a canal: Panama");
+// isPalindrome("race a car");
+// isPalindrome(" ");

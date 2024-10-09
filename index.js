@@ -707,3 +707,15 @@
 // isPalindrome("A man, a plan, a canal: Panama");
 // isPalindrome("race a car");
 // isPalindrome(" ");
+
+// 921. Minimum Add to Make Parentheses Valid
+
+// const minAddToMakeValid = function(s) {
+//     while(s.includes("()")) {
+//         s = s.replaceAll("()", "");
+//     }
+//     return s.length;
+// };
+
+// minAddToMakeValid("())");
+// minAddToMakeValid("(((");

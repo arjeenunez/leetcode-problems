@@ -719,3 +719,22 @@
 
 // minAddToMakeValid("())");
 // minAddToMakeValid("(((");
+
+// 1436. Destination City
+
+// const destCity = function(paths) {
+//     for (let i = 0; i < paths.length; i++) {
+//         let check = 0;
+//         for (let j = 0; j < paths.length; j++) {
+//             if (paths[i][1] === paths[j][0]) {
+//                 check++;
+//                 break;
+//             }
+//         }
+//         if (!check) return paths[i][1];
+//     }
+// };
+
+// destCity([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]);
+// destCity([["B", "C"], ["D", "B"], ["C", "A"]]);
+// destCity([["A", "Z"]]);

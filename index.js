@@ -738,3 +738,26 @@
 // destCity([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]);
 // destCity([["B", "C"], ["D", "B"], ["C", "A"]]);
 // destCity([["A", "Z"]]);
+
+// 830. Positions of Large Groups
+
+// const largeGroupPositions = function(s) {
+//     let groups = [];
+//     let startIdx = 0;
+//     let counter = 0;
+//     for (let i = 1; i <= s.length; i++) {
+//         if (s[i] === s[i - 1]) {
+//             counter++;
+//         } else {
+//             if (counter >= 2) groups.push([startIdx, i - 1]);
+//             startIdx = i;
+//             counter = 0;
+//         }
+//     }
+//     return groups;
+// };
+
+// largeGroupPositions("abbxxxxzzy");
+// largeGroupPositions("abc");
+// largeGroupPositions("abcdddeeeeaabbbcd");
+// largeGroupPositions("aaa");

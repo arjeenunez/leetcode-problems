@@ -761,3 +761,33 @@
 // largeGroupPositions("abc");
 // largeGroupPositions("abcdddeeeeaabbbcd");
 // largeGroupPositions("aaa");
+
+// 1417. Reformat The String
+
+// const reformat = function(s) {
+
+//     const arr = [...s]
+//         .reduce((total, el) => isNaN(el) ? [[...total[0], el], total[1]] : [total[0], [...total[1], el]], [[], []])
+//         .sort((a, b) => a.length - b.length);
+    
+//     if (arr[1].length - arr[0].length > 1) return "";
+//     let i = 0;
+//     let newStr = "";
+
+//     while(arr[1][i] !== undefined) {
+//         newStr += arr[1][i];
+//         if (arr[0][i] === undefined) break;
+//         newStr += arr[0][i];
+//         i++;
+//     }
+//     console.log(newStr);
+//     return newStr;
+// };
+
+// reformat("a0b1c2");
+// reformat("leetcode");
+// reformat("1229857369");
+// reformat("ab123");
+// reformat("j");
+// reformat("619mama");
+// reformat("a12bcd");

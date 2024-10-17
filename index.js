@@ -791,3 +791,22 @@
 // reformat("j");
 // reformat("619mama");
 // reformat("a12bcd");
+
+// 357. Count Numbers with Unique Digits
+
+// const countNumbersWithUniqueDigits = function(n) {
+//     let previous = 1;
+//     for (let i = 1; i <= n; i++) {
+//         let temp = 1;
+//         for (let j = 2; j <= i; j++) {
+//             temp *= 11 - j;
+//         }
+//         previous = (9 * temp) + previous
+//     }
+//     return previous;
+// };
+
+// countNumbersWithUniqueDigits(0);
+// countNumbersWithUniqueDigits(1);
+// countNumbersWithUniqueDigits(2);
+// countNumbersWithUniqueDigits(4);

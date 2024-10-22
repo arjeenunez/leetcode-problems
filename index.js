@@ -810,3 +810,14 @@
 // countNumbersWithUniqueDigits(1);
 // countNumbersWithUniqueDigits(2);
 // countNumbersWithUniqueDigits(4);
+
+// 1464. Maximum Product of Two Elements in an Array
+
+// var maxProduct = function(nums) {
+//     nums.sort((a, b) => a - b);
+//     return (nums.at(-1) - 1) * (nums.at(-2) - 1)
+// };
+
+// maxProduct([3, 4, 5, 2]);
+// maxProduct([1, 5, 4, 5]);
+// maxProduct([3, 7]);

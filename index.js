@@ -821,3 +821,16 @@
 // maxProduct([3, 4, 5, 2]);
 // maxProduct([1, 5, 4, 5]);
 // maxProduct([3, 7]);
+
+// 70. Climbing Stairs
+
+// const climbStairs = function(n) {
+//     const arr = [0, 1];
+//     for (let i = 2; i <= n + 1; i++) {
+//         arr.push(arr[i - 1] + arr[i - 2]);
+//     }
+//     return arr.at(-1);
+// };
+
+// climbStairs(2);
+// climbStairs(3);

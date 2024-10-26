@@ -834,3 +834,25 @@
 
 // climbStairs(2);
 // climbStairs(3);
+
+// 1189. Maximum Number of Balloons
+
+// const maxNumberOfBalloons = function(text) {
+//     const balloonText = text.replaceAll(/[^"balon"]/gi, "");
+//     const map = new Map();
+//     for (let letter of balloonText) {
+//         map.has(letter) ? map.set(letter, map.get(letter) + 1) : map.set(letter, 1);
+//     }
+//     if (map.size < 5) return 0;
+//     const minim = Math.min(map.get("b"), map.get("a"), map.get("n"));
+//     const minim2 = Math.min(map.get("l"), map.get("o"));
+//     for (let i = minim; i > 0; i--) {
+//         if (i * 2 <= minim2) return i;
+//     }
+//     return 0;
+    
+// };
+
+// maxNumberOfBalloons("nlaebolko");
+// maxNumberOfBalloons("loonbalxballpoon");
+// maxNumberOfBalloons("leetcode");

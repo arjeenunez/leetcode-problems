@@ -881,3 +881,31 @@
 // intersection([1, 2, 2, 1], [1, 2]);
 // intersection([1, 2, 2, 1], [2, 2]);
 // intersection([1, 2, 2, 3, 3, 1], [1, 2, 3]);
+
+// 263. Ugly Number
+
+// const isUgly = function(n) {
+//     if(n <= 0) return false;
+//     while(n > 0) {
+//         if (n % 2 === 0) {
+//             n /= 2;
+//             continue;
+//         }
+//         if (n % 3 === 0) {
+//             n /= 3;
+//             continue;
+//         }
+//         if (n % 5 === 0) {
+//             n /= 5;
+//             continue;
+//         }
+//         if (n === 1) return true;
+//         return false;
+//     }  
+// };
+
+// isUgly(2);
+// isUgly(1);
+// isUgly(-7);
+// isUgly(14);
+// isUgly(5);

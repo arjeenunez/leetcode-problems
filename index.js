@@ -856,3 +856,12 @@
 // maxNumberOfBalloons("nlaebolko");
 // maxNumberOfBalloons("loonbalxballpoon");
 // maxNumberOfBalloons("leetcode");
+
+// 338. Counting Bits
+
+// const countBits = function(n) {
+//     return Array.from({length: n + 1}, (el, idx) => idx).map(el => el.toString(2).length - el.toString(2).replaceAll(1, "").length);
+// };
+
+// countBits(2);
+// countBits(5);

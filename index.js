@@ -865,3 +865,19 @@
 
 // countBits(2);
 // countBits(5);
+
+// 349. Intersection of Two Arrays
+
+// const intersection = function(nums1, nums2) {
+//     const intersects = [];
+//     const nums = [nums1, nums2].sort((a, b) => a.length - b.length);
+//     for (let num of nums[0]) {
+//         if (intersects.includes(num)) continue;
+//         if (nums[1].includes(num)) intersects.push(num);
+//     }
+//     return intersects;
+// };
+
+// intersection([1, 2, 2, 1], [1, 2]);
+// intersection([1, 2, 2, 1], [2, 2]);
+// intersection([1, 2, 2, 3, 3, 1], [1, 2, 3]);

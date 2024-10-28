@@ -909,3 +909,30 @@
 // isUgly(-7);
 // isUgly(14);
 // isUgly(5);
+
+// 2501. Longest Square Streak in an Array
+
+// const longestSquareStreak = function(nums) {
+//     const obj = {};
+//     nums = [...new Set(nums)].sort((a, b) => a - b);
+//     for (let num of nums) {
+//         obj[num] = 1;
+//         let temp = 0;
+//         let temp2 = num;
+//         if (!Number.isInteger(Math.sqrt(num))) continue;
+        
+//         while(Number.isInteger(num)) {
+//             temp = num;
+//             num = Math.sqrt(num);
+//             if (!obj[num]) break;
+//         }
+//         if (temp2 === temp) continue;
+//         obj[temp] ? obj[temp]++ : obj[temp] = 1;
+//     }
+//     const longest = Math.max(...Object.values(obj));
+//     return longest !== 1 ? longest : -1;
+// };
+
+// longestSquareStreak([4, 3, 6, 16, 8, 2]);
+// longestSquareStreak([2, 3, 5, 6, 7]);
+// longestSquareStreak([4, 3, 10, 100, 10000, 2]);

@@ -936,3 +936,27 @@
 // longestSquareStreak([4, 3, 6, 16, 8, 2]);
 // longestSquareStreak([2, 3, 5, 6, 7]);
 // longestSquareStreak([4, 3, 10, 100, 10000, 2]);
+
+942. DI String Match
+
+// const diStringMatch = function(s) {
+//     let i = 0;
+//     let j = s.length;
+//     const arr = new Array(s.length + 1).fill(0);
+//     const arrMap = arr.map((el, idx) => {
+//         let temp = 0;
+//         if (s[idx] === "I") {
+//             temp = i;
+//             i++;
+//         } else {
+//             temp = j;
+//             j--;
+//         }
+//         return temp;
+//     });
+//     return arrMap;
+// };
+
+// diStringMatch("DIDI");
+// diStringMatch("III");
+// diStringMatch("DDI");

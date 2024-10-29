@@ -969,3 +969,22 @@
 
 // divisorGame(2);
 // divisorGame(3);
+
+// 925. Long Pressed Name
+
+// const isLongPressedName = function(name, typed) {
+
+//     const unique = str => [...str].reduce((result, el, idx, arr) => el === arr[idx - 1] ? result : result += el, "");
+//     if (unique(name) !== unique(typed)) return false;
+
+//     for (let i = 0; i < name.length; i++) {
+//         const idx = typed.indexOf(name[i]);
+//         if (idx === -1) return false;
+//         typed = typed.slice(idx + 1);
+//     }
+//     return true;
+// };
+
+// isLongPressedName("alex", "aaleexxa");
+// isLongPressedName("alex", "aaleexx");
+// isLongPressedName("saeed", "ssaaedddd");

@@ -937,7 +937,7 @@
 // longestSquareStreak([2, 3, 5, 6, 7]);
 // longestSquareStreak([4, 3, 10, 100, 10000, 2]);
 
-942. DI String Match
+// 942. DI String Match
 
 // const diStringMatch = function(s) {
 //     let i = 0;
@@ -960,3 +960,12 @@
 // diStringMatch("DIDI");
 // diStringMatch("III");
 // diStringMatch("DDI");
+
+// 1025. Divisor Game
+
+// const divisorGame = function(n) {
+//     return n % 2 === 0 ? true : false;
+// };
+
+// divisorGame(2);
+// divisorGame(3);

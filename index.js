@@ -1006,3 +1006,22 @@
 // minOperations("1101");
 // minOperations("10");
 // minOperations("00011");
+
+// 1646. Get Maximum in Generated Array
+
+// var getMaximumGenerated = function(n) {
+//     const nums = [];
+//     for (let i = 0; i < n + 1; i++) {
+//         if (!i || i === 1) nums[i] = i;
+//         let even = i * 2;
+//         let odd = i * 2 + 1;
+//         if (2 <= even && even <= n) nums[even] = nums[i];
+//         if (2 <= odd && odd <= n) nums[odd] = nums[i] + nums[i + 1];
+//     }
+//     return Math.max(...nums);
+// };
+
+// getMaximumGenerated(0);
+// getMaximumGenerated(7);
+// getMaximumGenerated(2);
+// getMaximumGenerated(3);

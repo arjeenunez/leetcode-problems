@@ -988,3 +988,21 @@
 // isLongPressedName("alex", "aaleexxa");
 // isLongPressedName("alex", "aaleexx");
 // isLongPressedName("saeed", "ssaaedddd");
+
+// 1758. Minimum Changes To Make Alternating Binary String
+
+// const minOperations = function(s) {
+//     let check = true;
+//     let total0 = total1 = 0;
+//     for (const num of s) {
+//         if (!!+num !== check) total0++;
+//         if (!!+num === check) total1++;
+//         check = !check;
+//     }
+//     return Math.min(total0, total1);
+// };
+
+// minOperations("111");
+// minOperations("1101");
+// minOperations("10");
+// minOperations("00011");

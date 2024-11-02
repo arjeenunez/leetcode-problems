@@ -1025,3 +1025,19 @@
 // getMaximumGenerated(7);
 // getMaximumGenerated(2);
 // getMaximumGenerated(3);
+
+// 2490. Circular Sentence
+
+// var isCircularSentence = function(sentence) {
+//     const arr1 = sentence.split(" ");
+//     const arr2 = [...arr1, arr1[0]];
+//     for (let [i, word] of arr2.entries()) {
+//         if (i === 0) continue;
+//         if (arr2[i - 1].at(-1) !== word[0]) return false;
+//     }
+//     return true;
+// };
+
+// isCircularSentence("leetcode exercises sound delightful");
+// isCircularSentence("eetcode");
+// isCircularSentence("Leetcode is cool");

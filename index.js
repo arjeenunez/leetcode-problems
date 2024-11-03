@@ -1051,3 +1051,27 @@
 // rotateString("abcde", "cdeab");
 // rotateString("abcde", "abced");
 // rotateString("aa", "a");
+
+// 2404. Most Frequent Even Element
+
+// const mostFrequentEven = function(nums) {
+//     const obj = {};
+//     let appearsMost = 0;
+//     let minim = null;
+//     for (const num of nums) {
+//         if (num % 2 !== 0) continue;
+//         obj[num] ? obj[num]++ : obj[num] = 1;
+//     }
+//     for (let [key, val] of Object.entries(obj)) {
+//         if (appearsMost < val) {
+//             appearsMost = val;
+//             minim = +key;
+//         };
+//         if (appearsMost === val) minim = +key <= minim ? +key : minim;
+//     }
+//     return minim ?? -1;
+// };
+
+// mostFrequentEven([0, 1, 2, 2, 4, 4, 1]);
+// mostFrequentEven([4, 4, 4, 9, 2, 4]);
+// mostFrequentEven([29, 47, 21, 41, 13, 37, 25, 7]);

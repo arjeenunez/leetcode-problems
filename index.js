@@ -1041,3 +1041,13 @@
 // isCircularSentence("leetcode exercises sound delightful");
 // isCircularSentence("eetcode");
 // isCircularSentence("Leetcode is cool");
+
+// 796. Rotate String
+
+// const rotateString = function(s, goal) {
+//     return s.length !== goal.length ? false : [...s, ...s].join("").includes(goal);
+// };
+
+// rotateString("abcde", "cdeab");
+// rotateString("abcde", "abced");
+// rotateString("aa", "a");

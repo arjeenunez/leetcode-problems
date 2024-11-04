@@ -1054,22 +1054,36 @@
 
 // 2404. Most Frequent Even Element
 
-const mostFrequentEven = function(nums) {
-    const obj = {};
-    let appearsMost = 0;
-    let minim = null;
-    for (const num of nums) {
-        if (num % 2 !== 0) continue;
-        obj[num] ? obj[num]++ : obj[num] = 1;
-        if (appearsMost < obj[num]) {
-            appearsMost = obj[num];
-            minim = num;
-        };
-        if (appearsMost === obj[num]) minim = num <= minim ? num : minim;
-    }
-    return minim ?? -1;
-};
+// const mostFrequentEven = function(nums) {
+//     const obj = {};
+//     let appearsMost = 0;
+//     let minim = null;
+//     for (const num of nums) {
+//         if (num % 2 !== 0) continue;
+//         obj[num] ? obj[num]++ : obj[num] = 1;
+//         if (appearsMost < obj[num]) {
+//             appearsMost = obj[num];
+//             minim = num;
+//         };
+//         if (appearsMost === obj[num]) minim = num <= minim ? num : minim;
+//     }
+//     return minim ?? -1;
+// };
 
 // mostFrequentEven([0, 1, 2, 2, 4, 4, 1]);
 // mostFrequentEven([4, 4, 4, 9, 2, 4]);
 // mostFrequentEven([29, 47, 21, 41, 13, 37, 25, 7]);
+
+// 3340. Check Balanced String
+
+// const isBalanced = function(num) {
+//     const sumIndices = (arr, isEven) => [...num]
+//                                     .filter((el, i) => isEven ? i % 2 === 0 : i % 2 !== 0)
+//                                     .reduce((total, el) => Number(total) + Number(el), 0);
+//     const sumEven = sumIndices(num, true);
+//     const sumOdd = sumIndices(num, false);
+//     return sumEven === sumOdd;
+// };
+
+// isBalanced("1234");
+// isBalanced("24123");

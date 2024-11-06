@@ -1087,3 +1087,13 @@
 
 // isBalanced("1234");
 // isBalanced("24123");
+
+// 3300. Minimum Element After Replacement With Digit Sum
+
+// const minElement = function (nums) {
+//     return Math.min(...nums.map(el => [...el.toString()].reduce((total, el) => total + Number(el), 0)));
+// }
+
+// minElement([10, 12, 13, 14]);
+// minElement([1, 2, 3, 4]);
+// minElement([999, 19, 199]);

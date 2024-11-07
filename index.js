@@ -1097,3 +1097,14 @@
 // minElement([10, 12, 13, 14]);
 // minElement([1, 2, 3, 4]);
 // minElement([999, 19, 199]);
+
+// 3270. Find the Key of the Numbers
+
+// const generateKey = function(num1, num2, num3) {
+//     const nums = [num1, num2, num3].map(el => el.toString().padStart(4, "0"));
+//     return +Array.from({length: 4}, (el, i) => Math.min(...nums.map(num => num[i]))).join("");
+// };
+
+// generateKey(1, 2, 3);
+// generateKey(1, 10, 1000);
+// generateKey(987, 789, 879);

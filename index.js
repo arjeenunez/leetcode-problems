@@ -1133,3 +1133,23 @@
 
 // numberOfPairs([1, 3, 4], [1, 3, 4], 1);
 // numberOfPairs([1, 2, 4, 12], [2, 4], 3);
+
+// 3038. Maximum Number of Operations With the Same Score I
+
+// const maxOperations = function(nums) {
+//     let result = [];
+//     for (let [i, num] of nums.entries()) {
+//         if ((i + 1) % 2 === 0) result.push(num + nums[i - 1]);
+//         if (result.at(-1) !== result[0]) {
+//             result.pop();
+//             break;
+//         }
+
+//     }
+//     return result.length;
+// };
+
+// maxOperations([3, 2, 1, 4, 5]);
+// maxOperations([1, 5, 3, 3, 4, 1, 3, 2, 2, 3]);
+// maxOperations([5, 3]);
+// maxOperations([2, 2, 3, 2, 4, 2, 3, 3, 1, 3]);

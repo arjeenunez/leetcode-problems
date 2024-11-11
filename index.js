@@ -1108,3 +1108,13 @@
 // generateKey(1, 2, 3);
 // generateKey(1, 10, 1000);
 // generateKey(987, 789, 879);
+
+// 3019. Number of Changing Keys
+
+// const countKeyChanges = function(s) {
+//     return [...s].reduce((total, el, i, arr) => i === 0 ? total : el.toLowerCase() !== arr[i - 1].toLowerCase() ? ++total : total, 0);
+// };
+
+// countKeyChanges("aAbBcC");
+// countKeyChanges("AaAaAaaA");
+// countKeyChanges("mDVD");

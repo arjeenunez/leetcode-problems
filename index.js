@@ -1153,3 +1153,20 @@
 // maxOperations([1, 5, 3, 3, 4, 1, 3, 2, 2, 3]);
 // maxOperations([5, 3]);
 // maxOperations([2, 2, 3, 2, 4, 2, 3, 3, 1, 3]);
+
+// 2259. Remove Digit From Number to Maximize Result
+
+// const removeDigit = function(number, digit) {
+//     let maxim = 0n;
+//     for (let i = 0; i < number.length; i++) {
+//         if (number[i] === digit) {
+//             const temp = BigInt(number.slice(0, i) + number.slice(i + 1));
+//             maxim = maxim > temp ? maxim : temp;
+//         }
+//     }
+//     return maxim.toString();
+// };
+
+// removeDigit("123");
+// removeDigit("1231");
+// removeDigit("551");

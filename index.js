@@ -1170,3 +1170,13 @@
 // removeDigit("123");
 // removeDigit("1231");
 // removeDigit("551");
+
+// 3285. Find Indices of Stable Mountains
+
+// const stableMountains = function(height, threshold) {
+//     return height.reduce((final, el, i, arr) => arr[i - 1] > threshold ? [...final, i] : final, []);
+// };
+
+// stableMountains([1, 2, 3, 4, 5], 2);
+// stableMountains([10, 1, 10, 1, 10], 3);
+// stableMountains([10, 1, 10, 1, 10], 10);

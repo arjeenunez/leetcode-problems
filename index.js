@@ -1180,3 +1180,21 @@
 // stableMountains([1, 2, 3, 4, 5], 2);
 // stableMountains([10, 1, 10, 1, 10], 3);
 // stableMountains([10, 1, 10, 1, 10], 10);
+
+// 2027. Minimum Moves to Convert String
+
+// const minimumMoves = function(s) {
+//     let turns = 0;
+//     for (let i = 0; i < s.length; i++) {
+//         if (s[i] === "X") {
+//             turns++;
+//             i += 2;
+//             continue;
+//         }
+//     }
+//     return turns;
+// };
+
+// minimumMoves("XXX");
+// minimumMoves("XXOX");
+// minimumMoves("OOOO");

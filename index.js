@@ -1198,3 +1198,19 @@
 // minimumMoves("XXX");
 // minimumMoves("XXOX");
 // minimumMoves("OOOO");
+
+// 1984. Minimum Difference Between Highest and Lowest of K Scores
+
+// const minimumDifference = function(nums, k) {
+//     let minim = Infinity;
+//     const sortedNums = nums.toSorted((a, b) => a - b);
+//     for (let [i, minNum] of sortedNums.entries()) {
+//         let maxNum = sortedNums[i + k - 1];
+//         if (!maxNum) break;
+//         minim = Math.min(minim, maxNum - minNum);
+//     }
+//     return minim;
+// };
+
+// minimumDifference([90])
+// minimumDifference([9, 4, 1, 7]);

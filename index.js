@@ -1214,3 +1214,14 @@
 
 // minimumDifference([90])
 // minimumDifference([9, 4, 1, 7]);
+
+// 3330. Find the Original Typed String I
+
+// const possibleStringCount = function(word) {
+//     return [...word].reduce((total, el, i, arr) => el === arr[i + 1] ? ++total : total, 1);
+// };
+
+// possibleStringCount("abbcccc");
+// possibleStringCount("abcd");
+// possibleStringCount("aaaa");
+// possibleStringCount("ere");

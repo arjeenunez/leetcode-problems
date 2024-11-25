@@ -1225,3 +1225,20 @@
 // possibleStringCount("abcd");
 // possibleStringCount("aaaa");
 // possibleStringCount("ere");
+
+// 3360. Stone Removal Game
+
+// const canAliceWin = function(n) {
+//     let isAliceWinning = false;
+//     let i = 10;
+//     while (n - i >= 0) {
+//         isAliceWinning = !isAliceWinning;
+//         n -= i;
+//         i--;
+//     }
+//     return isAliceWinning;
+// };
+
+// canAliceWin(12);
+// canAliceWin(1);
+// canAliceWin(10);

@@ -1242,3 +1242,13 @@
 // canAliceWin(12);
 // canAliceWin(1);
 // canAliceWin(10);
+
+// 2980. Check if Bitwise OR Has Trailing Zeros
+
+// const hasTrailingZeros = function(nums) {
+//     return nums.filter(el => el % 2 === 0).length > 1;
+// };
+
+// hasTrailingZeros([1, 2, 3, 4, 5]);
+// hasTrailingZeros([1, 2]);
+// hasTrailingZeros([1, 3, 5, 7, 9]);

@@ -1252,3 +1252,27 @@
 // hasTrailingZeros([1, 2, 3, 4, 5]);
 // hasTrailingZeros([1, 2]);
 // hasTrailingZeros([1, 3, 5, 7, 9]);
+
+// 2869. Minimum Operations to Collect Elements
+
+// const minOperations = function (nums, k) {
+//     const numSet = new Set();
+//     let i = nums.length - 1;
+//     let counter = 0;
+//     while (i >= 0) {
+//         if (numSet.has(k)) {
+//             k--;
+//         } else {
+//             numSet.add(nums[i]);
+//             counter++;
+//             i--;
+//         }
+//         if (!k) break;
+//     }
+//     return counter;
+// }
+
+// minOperations([3, 1, 5, 4, 2], 2);
+// minOperations([3, 1, 5, 4, 2], 5);
+// minOperations([3, 2, 5, 3, 1], 3);
+

@@ -1276,3 +1276,18 @@
 // minOperations([3, 1, 5, 4, 2], 5);
 // minOperations([3, 2, 5, 3, 1], 3);
 
+// 1346. Check If N and Its Double Exist
+
+// const checkIfExist = function(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < arr.length; j++) {
+//             if (j === i) continue;
+//             if (arr[i] === 2 * arr[j]) return true;
+//         }
+//     }
+//     return false;
+// };
+
+
+// checkIfExist([10, 2, 5, 3]);
+// checkIfExist([3, 1, 7, 11]);

@@ -1291,3 +1291,20 @@
 
 // checkIfExist([10, 2, 5, 3]);
 // checkIfExist([3, 1, 7, 11]);
+
+// 2451. Odd String Difference
+
+// const oddString = function(words) {
+//     const getStr = word => Array.from({length: word.length - 1}, (el, i) => word[i + 1].charCodeAt() - word[i].charCodeAt()).join(",");
+//     let obj = {};
+//     for (let word of words) {
+//         let str = getStr(word);
+//         obj[str] ? obj[str] = [...obj[str], word] : obj[str] = [word];
+//     }
+//     for (let str in obj) {
+//         if (obj[str].length === 1) return obj[str][0];
+//     }
+// };
+
+// oddString(["adc", "wzy", "abc"]);
+// oddString(["aaa", "bob", "ccc", "ddd"]);

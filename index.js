@@ -1308,3 +1308,18 @@
 
 // oddString(["adc", "wzy", "abc"]);
 // oddString(["aaa", "bob", "ccc", "ddd"]);
+
+// 2937. Make Three Strings Equal
+
+// const findMinimumOperations = function(s1, s2, s3) {
+//     let sum = 0;
+//     for (let i = 0; i < s1.length; i++) {
+//         if (s1[i] !== s2[i] || s1[i] !== s3[i]) break;
+//         sum++;
+//     }
+//     return !sum ? - 1 : [s1, s2, s3].reduce((total, s) => total + (s.length - sum), 0);
+// };
+
+// findMinimumOperations("abc", "abb", "ab");
+// findMinimumOperations("a", "a", "a");
+// findMinimumOperations("dac", "bac", "cac");

@@ -1323,3 +1323,20 @@
 // findMinimumOperations("abc", "abb", "ab");
 // findMinimumOperations("a", "a", "a");
 // findMinimumOperations("dac", "bac", "cac");
+
+// 3178. Find the Child Who Has the Ball After K Seconds
+
+// const numberOfChild = function(n, k) {
+//     let idx = 0;
+//     let shouldAdd = false;
+//     for (let i = 0; i < k; i++) {
+//         if (idx === 0) shouldAdd = !shouldAdd;
+//         if (idx === n - 1) shouldAdd = !shouldAdd;
+//         shouldAdd ? idx++ : idx--;
+//     }
+//     return idx;
+// };
+
+// numberOfChild(3, 5);
+// numberOfChild(5, 6);
+// numberOfChild(4, 2);

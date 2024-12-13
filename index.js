@@ -1340,3 +1340,27 @@
 // numberOfChild(3, 5);
 // numberOfChild(5, 6);
 // numberOfChild(4, 2);
+
+// 3354. Make Array Elements Equal to Zero
+
+// const countValidSelections = function(nums) {
+
+//     const sum = arr => arr.reduce((total, el) => total + el, 0);
+//     let result = 0;
+//     let totalSoFar = 0;
+
+//     for (let i = 0; i < nums.length; i++) {
+//         totalSoFar += nums[i];
+//         if (nums[i] === 0) {
+//             let nums2 = sum(nums.slice(i + 1));
+//             if (Math.abs(totalSoFar - nums2) === 1) result++;
+//             if (nums2 === totalSoFar) result += 2;
+//         }
+//     }
+
+//     return result;
+
+// };
+
+// countValidSelections([1, 0, 2, 0, 3]);
+// countValidSelections([2, 3, 4, 0, 4, 1, 0]);

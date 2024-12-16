@@ -1364,3 +1364,18 @@
 
 // countValidSelections([1, 0, 2, 0, 3]);
 // countValidSelections([2, 3, 4, 0, 4, 1, 0]);
+
+// 3264. Final Array State After K Multiplication Operations I
+
+// const getFinalState = function(nums, k, multiplier) {
+//     while (k > 0) {
+//         let minim = Math.min(...nums);
+//         let idx = nums.indexOf(minim);
+//         nums[idx] *= multiplier;
+//         k--;
+//     }
+//     return nums;
+// };
+
+// getFinalState([2, 1, 3, 5, 6], 5, 2);
+// getFinalState([1, 2], 3, 4);

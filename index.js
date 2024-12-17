@@ -1379,3 +1379,17 @@
 
 // getFinalState([2, 1, 3, 5, 6], 5, 2);
 // getFinalState([1, 2], 3, 4);
+
+// 3083. Existence of a Substring in a String and Its Reverse
+
+// var isSubstringPresent = function(s) {
+//     const revS = s.split("").reverse("").join("");
+//     for (let i = 1; i < s.length; i++) {
+//         if(s.includes(revS.slice(i - 1, i + 1))) return true;
+//     }
+//     return false;
+// };
+
+// isSubstringPresent("leetcode");
+// isSubstringPresent("abcba");
+// isSubstringPresent("abcd");

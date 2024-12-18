@@ -1403,3 +1403,30 @@
 // finalPrices([8, 4, 6, 2, 3]);
 // finalPrices([1, 2, 3, 4, 5]);
 // finalPrices([10, 1, 1, 6]);
+
+// 3200. Maximum Height of a Triangle
+
+// const maxHeightOfTriangle = function(red, blue) {
+    
+//     const getHeight = (first, second) => {
+//         let even = 2;
+//         while (true) {
+//             first -= even - 1
+//             second -= even;
+//             if (first < 0) return even - 2;
+//             if (second < 0) return even - 1;
+//             even += 2;
+//         }
+//     }
+
+//     const redFirst = getHeight(red, blue);
+//     const blueFirst = getHeight(blue, red);
+
+//     return redFirst >= blueFirst ? redFirst : blueFirst;
+
+// };
+
+// maxHeightOfTriangle(2, 4);
+// maxHeightOfTriangle(2, 1);
+// maxHeightOfTriangle(1, 1);
+// maxHeightOfTriangle(1, 10);

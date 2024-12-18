@@ -1393,3 +1393,13 @@
 // isSubstringPresent("leetcode");
 // isSubstringPresent("abcba");
 // isSubstringPresent("abcd");
+
+// 1475. Final Prices With a Special Discount in a Shop
+
+// const finalPrices = function(prices) {
+//     return prices.map((el, idx, arr) => el - (arr.find((e, i, a) => e <= el && i > idx) ?? 0));
+// };
+
+// finalPrices([8, 4, 6, 2, 3]);
+// finalPrices([1, 2, 3, 4, 5]);
+// finalPrices([10, 1, 1, 6]);

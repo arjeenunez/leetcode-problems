@@ -1433,9 +1433,9 @@
 
 // 3392. Count Subarrays of Length Three With a Condition
 
-const countSubarrays = function(nums) {
-    return nums.reduce((total, el, i, arr) => i > 1 && el + arr[i - 2] === (arr[i - 1] / 2) ? total += 1 : total, 0);
-};
+// const countSubarrays = function(nums) {
+//     return nums.reduce((total, el, i, arr) => i > 1 && el + arr[i - 2] === (arr[i - 1] / 2) ? total += 1 : total, 0);
+// };
 
-countSubarrays([1, 2, 1, 4, 1]);
-countSubarrays([1, 1, 1]);
+// countSubarrays([1, 2, 1, 4, 1]);
+// countSubarrays([1, 1, 1]);

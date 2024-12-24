@@ -1439,3 +1439,16 @@
 
 // countSubarrays([1, 2, 1, 4, 1]);
 // countSubarrays([1, 1, 1]);
+
+// 3345. Smallest Divisible Digit Product I
+
+// const smallestNumber = function(n, t) {
+//     while (true) {
+//         const product = n.toString().split("").reduce((prod, el) => +prod * +el);
+//         if (product % t === 0) return n;
+//         n++;
+//     }
+// };
+
+// smallestNumber(10, 2);
+// smallestNumber(15, 3);

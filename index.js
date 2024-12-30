@@ -1452,3 +1452,18 @@
 
 // smallestNumber(10, 2);
 // smallestNumber(15, 3);
+
+// 3206. Alternating Groups I
+
+// const numberOfAlternatingGroups = function(colors) {
+//     let result = 0;
+//     let circle = [...colors, ...colors];
+//     for (let i = 0; i < colors.length; i++) {
+//         if (circle[i] === circle[i + 2] && circle[i] !== circle[i + 1]) result++;
+//     }
+//     return result;
+// };
+
+// numberOfAlternatingGroups([1, 1, 1]);
+// numberOfAlternatingGroups([0, 1, 0, 0, 1]);
+// numberOfAlternatingGroups([1, 0, 1]);

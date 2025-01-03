@@ -1467,3 +1467,26 @@
 // numberOfAlternatingGroups([1, 1, 1]);
 // numberOfAlternatingGroups([0, 1, 0, 0, 1]);
 // numberOfAlternatingGroups([1, 0, 1]);
+
+// 3402. Minimum Operations to Make Columns Strictly Increasing
+
+// const minimumOperations = function(grid) {
+
+//     let count = 0;
+
+//     for (let i = 1; i < grid.length; i++) {
+//         for (let j = 0; j < grid[i].length; j++) {
+//             if (grid[i][j] <= grid[i - 1][j]) {
+//                 count++;
+//                 grid[i][j] += 1;
+//                 j--;
+//             }
+//         }
+//     }
+
+//     return count;
+    
+// };
+
+// minimumOperations([[3, 2], [1, 3], [3, 4], [0, 1]]);
+// minimumOperations([[3, 2, 1], [2, 1, 0], [1, 2, 3]]);

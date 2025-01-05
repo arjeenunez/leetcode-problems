@@ -1490,3 +1490,19 @@
 
 // minimumOperations([[3, 2], [1, 3], [3, 4], [0, 1]]);
 // minimumOperations([[3, 2, 1], [2, 1, 0], [1, 2, 3]]);
+
+// 3407. Substring Matching Pattern
+
+// const hasMatch = function(s, p) {
+//     const first = p.slice(0, p.indexOf("*"));
+//     const second = p.slice(p.indexOf("*") + 1);
+//     const len = first.length;
+//     const ind1 = s.indexOf(first);
+//     if (ind1 === -1) return false;
+//     const ind2 = s.lastIndexOf(second);
+//     return ind1 + len <= ind2;
+// };
+
+// hasMatch("leetcode", "ee*e");
+// hasMatch("car", "c*v");
+// hasMatch("luck", "u*");

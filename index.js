@@ -1506,3 +1506,17 @@
 // hasMatch("leetcode", "ee*e");
 // hasMatch("car", "c*v");
 // hasMatch("luck", "u*");
+
+// 3423. Maximum Difference Between Adjacent Elements in a Circular Array
+
+// const maxAdjacentDistance = function(nums) {
+//     const arr = [...nums, ...nums];
+//     let result = -Infinity;
+//     for (let i = 0; i <= nums.length; i++) {
+//         result = Math.max(result, Math.abs(arr[i] - arr[i + 1]));
+//     }
+//     return result;
+// };
+
+// maxAdjacentDistance([1, 2, 4]);
+// maxAdjacentDistance([-5, -10, -5]);

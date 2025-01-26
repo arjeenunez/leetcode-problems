@@ -1520,3 +1520,18 @@
 
 // maxAdjacentDistance([1, 2, 4]);
 // maxAdjacentDistance([-5, -10, -5]);
+
+// 3427. Sum of Variable Length Subarrays
+
+// const subarraySum = function(nums) {
+//     let total = 0;
+//     for (let i = 1; i <= nums.length; i++) {
+//         let start = Math.max(0, i - nums[i]);
+//         let subNums = nums.slice(start, i);
+//         total += subNums.reduce((total, el) => total + el);
+//     }
+//     return total;
+// };
+
+// subarraySum([2, 3, 1]);
+// subarraySum([3, 1, 1, 2]);

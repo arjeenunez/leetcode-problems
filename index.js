@@ -1535,3 +1535,21 @@
 
 // subarraySum([2, 3, 1]);
 // subarraySum([3, 1, 1, 2]);
+
+// 3090. Maximum Length Substring With Two Occurrences
+
+// const maximumLengthSubstring = function(s) {
+//     let maxim = -Infinity;
+//     for (let i = 0; i < s.length; i++) {
+//         const newMap = new Map();
+//         for (let j = i; j < s.length; j++) {
+//             newMap.set(s[j], 1 + newMap.get(s[j]) || 1);
+//             if (newMap.get(s[j]) > 2) break;
+//             maxim = Math.max(maxim, j - i + 1);
+//         }
+//     }
+//     return maxim;
+// };
+
+// maximumLengthSubstring("bcbbbcba");
+// maximumLengthSubstring("aaaa");

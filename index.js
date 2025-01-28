@@ -1556,10 +1556,21 @@
 
 // 3375. Minimum Operations to Make Array Values Equal to K
 
-// var minOperations = function(nums, k) {
+// Option#1
+// const minOperations = function(nums, k) {
 //     const newNums = [...new Set(nums)];
 //     if (newNums.some(el => el < k)) return -1;
 //     return newNums.filter(el => el > k).length;
+// };
+
+// Option#2
+// const minOperations = function(nums, k) {
+//     let optns = 0;
+//     for (let [idx, val] of [...new Set(nums)].entries()) {
+//         if (val < k) return -1;
+//         if (val > k) optns++;
+//     }
+//     return optns;
 // };
 
 // minOperations([5, 2, 5, 4, 5]);

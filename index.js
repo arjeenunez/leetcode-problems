@@ -1553,3 +1553,14 @@
 
 // maximumLengthSubstring("bcbbbcba");
 // maximumLengthSubstring("aaaa");
+
+// 3375. Minimum Operations to Make Array Values Equal to K
+
+// var minOperations = function(nums, k) {
+//     const newNums = [...new Set(nums)];
+//     if (newNums.some(el => el < k)) return -1;
+//     return newNums.filter(el => el > k).length;
+// };
+
+// minOperations([5, 2, 5, 4, 5]);
+// minOperations([2, 1, 2]);

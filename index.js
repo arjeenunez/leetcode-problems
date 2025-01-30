@@ -1575,3 +1575,14 @@
 
 // minOperations([5, 2, 5, 4, 5]);
 // minOperations([2, 1, 2]);
+
+// 2951. Find the Peaks
+
+// const findPeaks = function(mountain) {
+//     return mountain
+//                 .map((el, i, arr) => i === 0 || i === mountain.length - 1 ? 0 : el > arr[i - 1] && el > arr[i + 1] ? i : 0)
+//                 .filter((el => el));
+// };
+
+// findPeaks([1, 4, 3, 8, 5]);
+// findPeaks([1, 2, 2]);

@@ -1586,3 +1586,17 @@
 
 // findPeaks([1, 4, 3, 8, 5]);
 // findPeaks([1, 2, 2]);
+
+// 3452. Sum of Good Numbers
+
+// const sumOfGoodNumbers = function(nums, k) {
+//     return nums.reduce((total, el, i, arr) => {
+//         let low = arr[i - k] ?? 0;
+//         let high = arr[i + k] ?? 0;
+//         if (low < el && high < el) return total += el;
+//         return total;
+//     }, 0);
+// };
+
+// sumOfGoodNumbers([1, 3, 2, 1, 5, 4], 2);
+// sumOfGoodNumbers([2, 1], 1);

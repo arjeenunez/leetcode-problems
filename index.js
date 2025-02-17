@@ -1600,3 +1600,21 @@
 
 // sumOfGoodNumbers([1, 3, 2, 1, 5, 4], 2);
 // sumOfGoodNumbers([2, 1], 1);
+
+// 3456. Find Special Substring of Length K
+
+// const hasSpecialSubstring = function(s, k) {
+//     for (let i = 0; i < s.length; i++) {
+//         let tempStr = s.substring(i, i + k);
+//         if (tempStr.length < k) return false;
+//         let tempSet = new Set(s.substring(i, i + k));
+//         if (tempSet.size === 1) {
+//             if (s[i - 1] !== s[i] && s[i + k] !== s[i]) return true;
+//         }
+//     }
+//     return false;
+// };
+
+// hasSpecialSubstring("aaabaaa", 3);
+// hasSpecialSubstring("abc", 2);
+// hasSpecialSubstring("h", 1);

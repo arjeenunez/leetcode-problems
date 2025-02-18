@@ -1618,3 +1618,13 @@
 // hasSpecialSubstring("aaabaaa", 3);
 // hasSpecialSubstring("abc", 2);
 // hasSpecialSubstring("h", 1);
+
+// 3210. Find the Encrypted String
+
+// const getEncryptedString = function(s, k) {
+//     return [...s].reduce((total, el, i, arr) => total += arr[(i + k) % s.length], "");
+// };
+
+// getEncryptedString("dart");
+// getEncryptedString("aaa");
+// getEncryptedString("byd");

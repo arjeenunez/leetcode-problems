@@ -1628,3 +1628,19 @@
 // getEncryptedString("dart");
 // getEncryptedString("aaa");
 // getEncryptedString("byd");
+
+// 3461. Check If Digits Are Equal in String After Operations I
+
+// const hasSameDigits = function(s) {
+//     while (s.length > 2) {
+//         let result = "";
+//         for (let i = 1; i < s.length; i++) {
+//             result += (Number(s[i]) + Number(s[i - 1])) % 10;
+//         }
+//         s = result;
+//     }
+//     return s[0] === s[1];
+// };
+
+// hasSameDigits("3902");
+// hasSameDigits("34789");

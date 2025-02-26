@@ -1644,3 +1644,13 @@
 
 // hasSameDigits("3902");
 // hasSameDigits("34789");
+
+// 1672. Richest Customer Wealth
+
+// const maximumWealth = function(accounts) {
+//     return accounts.reduce((high, el) => Math.max(high, el.reduce((t, e) => t + e)), 0);
+// };
+
+// maximumWealth([[1, 2, 3], [3, 2, 1]]);
+// maximumWealth([[1, 5], [7, 3], [3, 5]])
+// maximumWealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]])

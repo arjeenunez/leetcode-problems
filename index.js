@@ -1669,3 +1669,14 @@
 // nextGreatestLetter(["c", "f", "j"], "a");
 // nextGreatestLetter(["c", "f", "j"], "c");
 // nextGreatestLetter(["x", "x", "y", "y"], "z");
+
+// 1796. Second Largest Digit in a String
+
+// const secondHighest = function(s) {
+//     const set = new Set(s);
+//     set.forEach((point, _, chars) => isNaN(point) ? chars.delete(point) : null);
+//     return Number([...set].sort((a, b) => b - a)[1] ?? -1);
+// }
+
+// secondHighest("dfa12321afd");
+// secondHighest("abc1111");

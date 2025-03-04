@@ -1680,3 +1680,25 @@
 
 // secondHighest("dfa12321afd");
 // secondHighest("abc1111");
+
+// 3471. Find the Largest Almost Missing Integer
+
+// const largestInteger = function(nums, k) {
+
+//     let maximum = -1;
+
+//     for (let num of nums) {
+//         let total = 0;
+//         for (let i = 0; i < nums.length + 1 - k; i++) {
+//             let set = new Set(nums.slice(i, k + i));
+//             if (set.has(num)) total++;
+//         }
+//         if (total === 1) maximum = Math.max(maximum, num);
+//     }
+//     return maximum;
+
+// }
+
+// largestInteger([3, 9, 2, 1, 7], 3);
+// largestInteger([3, 9, 7, 2, 1, 7], 4);
+// largestInteger([0, 0], 1);

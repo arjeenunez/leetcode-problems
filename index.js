@@ -1702,3 +1702,12 @@
 // largestInteger([3, 9, 2, 1, 7], 3);
 // largestInteger([3, 9, 7, 2, 1, 7], 4);
 // largestInteger([0, 0], 1);
+
+// 1769. Minimum Number of Operations to Move All Balls to Each Box
+
+// const minOperations = function(boxes) {
+//     return [...boxes].map((el, ind, arr) => arr.reduce((total, e, i) => e === "1" ? total += Math.abs(i - ind) : total, 0));
+// };
+
+// minOperations("110");
+// minOperations("001011");

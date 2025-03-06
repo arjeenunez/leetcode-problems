@@ -1756,3 +1756,25 @@
 // };
 
 // minSteps("bab", "aba");
+
+// 1877. Minimize Maximum Pair Sum in Array
+
+// const minPairSum = function(nums) {
+    
+//     const sortedNums = nums.toSorted((a, b) => a - b);
+
+//     let i = 0;
+//     let j = nums.length - 1;
+//     let maximum = 0;
+
+//     while (i < j) {
+//         maximum = Math.max(maximum, sortedNums[i] + sortedNums[j]);
+//         i++;
+//         j--;
+//     }
+
+//     return maximum;
+// };
+
+// minPairSum([3, 5, 2, 3]);
+// minPairSum([3, 5, 4, 2, 4, 6]);

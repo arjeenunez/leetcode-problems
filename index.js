@@ -1727,3 +1727,32 @@
 
 // findThePrefixCommonArray([2, 3, 1], [3, 1, 2]);
 // findThePrefixCommonArray([1, 3, 2, 4], [3, 1, 2, 4]);
+
+// 1347. Minimum Number of Steps to Make Two Strings Anagram
+
+// const minSteps = function(s, t) {
+
+//     const map1 = new Map();
+//     const map2 = new Map();
+
+//     for (let i = 0; i < s.length; i++) {
+//         map1.has(s[i]) ? map1.set(s[i], map1.get(s[i]) + 1) : map1.set(s[i], 1);
+//         map2.has(t[i]) ? map2.set(t[i], map2.get(t[i]) + 1) : map2.set(t[i], 1);
+//     }
+
+//     let total = 0
+
+//     for (let [letter, value] of map2.entries()) {
+//         let check = map1.get(letter);
+//         if (!check) {
+//             total += value;
+//             continue;
+//         }
+//         value - check < 0 ? map2.set(letter, 0) : map2.set(letter, value - check);
+//         total += map2.get(letter);
+//     }
+
+//     return total;
+// };
+
+// minSteps("bab", "aba");

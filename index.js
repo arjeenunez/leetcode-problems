@@ -1711,3 +1711,19 @@
 
 // minOperations("110");
 // minOperations("001011");
+
+// 2657. Find the Prefix Common Array of Two Arrays
+
+// const findThePrefixCommonArray = function(A, B) {
+//     const set = new Set();
+//     const arr = new Array(A.length).fill(0);
+//     for (let i = 0; i < A.length; i++) {
+//         set.add(A[i]);
+//         set.add(B[i]);
+//         arr[i] = (i + 1) * 2 - set.size;
+//     }
+//     return arr;
+// };
+
+// findThePrefixCommonArray([2, 3, 1], [3, 1, 2]);
+// findThePrefixCommonArray([1, 3, 2, 4], [3, 1, 2, 4]);

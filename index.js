@@ -1778,3 +1778,29 @@
 
 // minPairSum([3, 5, 2, 3]);
 // minPairSum([3, 5, 4, 2, 4, 6]);
+
+// 2785. Sort Vowels in a String
+
+// const sortVowels = function(s) {
+
+//     const vowels = "aeiouAEIOU";
+
+//     const includedVowels = [...s].filter(letter => vowels.includes(letter)).sort((a, b) => a.charCodeAt() - b.charCodeAt());
+
+//     let sortedWord = "";
+//     let count = 0;
+
+//     for (let letter of s) {
+//         if (!vowels.includes(letter)) {
+//             sortedWord += letter;
+//         } else {
+//             sortedWord += includedVowels[count];
+//             count++;
+//         }
+//     }
+
+//     return sortedWord;
+// };
+
+// sortVowels("lEetcOde", "lEOtcede");
+// sortVowels("lYmpH", "lYmpH");

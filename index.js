@@ -1817,3 +1817,58 @@
 // findDifferentBinaryString(["00", "01"]);
 // findDifferentBinaryString(["01", "10"]);
 // findDifferentBinaryString(["111", "011", "001"]);
+
+// 46. Permutations
+
+// const permute = function(nums) {
+//     if (nums.length === 0) return [[]];
+
+//     let outputs = [];
+
+//     for (let i = 0; i < nums.length; i++) {
+//         let currentNum = nums[i];
+//         let remainingNums = nums.slice(0, i).concat(nums.slice(i + 1))
+//         let permutations = permute(remainingNums);
+
+//         for (const perm of permutations) {
+//             outputs.push([currentNum, ...perm])
+//         }
+//     }
+
+//     return outputs;
+    
+// };
+
+// permute([1, 2, 3]);
+// permute([0, 1]);
+// permute([1, 2, 3, 4]);
+
+
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// RECURSIVE FUNCTION PROBLEMS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// 1. Sum all the Elements in an array
+
+// const sum = function (arr) {
+//     if (arr.length === 0) return 0;
+//     return arr[0] + sum(arr.slice(1));
+// }
+
+// console.log(sum([1, 2, 3]));
+// console.log(sum([1, 2, 3, 4]));
+// console.log(sum([1, 2, 3, 4, 5]));
+
+// 2. Compute for n factorial(n!);
+
+// const factorial = function (n) {
+//     if (!n) return 1;
+//     return n * factorial(n - 1);
+// }
+
+// console.log(factorial(5));
+// console.log(factorial(1));
+// console.log(factorial(10));
+

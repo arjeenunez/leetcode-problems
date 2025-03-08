@@ -1843,6 +1843,24 @@
 // permute([0, 1]);
 // permute([1, 2, 3, 4]);
 
+// 3163. String Compression III
+
+// const compressedString = function(word) {
+//     let count = 0;
+//     let str = "";
+//     for (let i = 0; i < word.length; i++) {
+//         count++;
+//         if (count === 9 || word[i] !== word[i + 1]) {
+//             str += count + word[i];
+//             count = 0;
+//         }
+//     }
+//     return str;
+// };
+
+// compressedString("abcde");
+// compressedString("aaaaaaaaaaaaaaabb");
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

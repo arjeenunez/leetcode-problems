@@ -1804,3 +1804,16 @@
 
 // sortVowels("lEetcOde", "lEOtcede");
 // sortVowels("lYmpH", "lYmpH");
+
+// 1980. Find Unique Binary String
+
+// const findDifferentBinaryString = function(nums) {
+//     for (let i = 0; i <= nums.length ** nums.length; i++) {
+//         let binary = i.toString(2).padStart(nums.length, "0");
+//         if (!nums.includes(binary)) return binary;
+//     }
+// };
+
+// findDifferentBinaryString(["00", "01"]);
+// findDifferentBinaryString(["01", "10"]);
+// findDifferentBinaryString(["111", "011", "001"]);

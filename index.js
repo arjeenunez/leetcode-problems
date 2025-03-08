@@ -1944,3 +1944,19 @@
 
 // console.log(permutate([1, 2, 3]));
 // console.log(permutate([1, 2, 3, 4]));
+
+// 8. Generate all subsets of a given set (power set)
+
+// const subsets = function (arr) {
+
+//     if (!arr.length) return [[]];
+
+//     const first = arr[0];
+//     const rest = subsets(arr.slice(1));
+
+//     const withFirst = rest.map(el => [first, ...el]);
+
+//     return [...withFirst, ...rest];
+// }
+
+// console.log(subsets([1, 2, 3]));

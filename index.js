@@ -1899,3 +1899,24 @@
 
 // console.log(power(2, 3));
 // console.log(power(2, 5));
+
+// 6. Find an element in a sorted array using recursive function
+
+// const binarySearch = function (arr, target) {
+//     if (arr[0] === target) return 0 ;
+//     return 1 + binarySearch(arr.slice(1), target);
+// }
+
+// Alternate solution using binary search algorithm of left-right
+
+// const binarySearch = function (arr, target, left = 0, right = arr.length - 1) {
+//     if (left > right) return -1;
+//     let mid = Math.floor((left + right) / 2);
+
+//     if (arr[mid] === target) return mid
+//     if (arr[mid] > target) return binarySearch(arr, target, left, mid - 1);
+//     if (arr[mid] < target) return binarySearch(arr, target, mid + 1, right);
+// }
+
+// console.log(binarySearch([1, 2, 3, 4, 5], 4));
+// console.log(binarySearch([10, 20, 32, 11, 4], 10));

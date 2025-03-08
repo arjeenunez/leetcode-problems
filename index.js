@@ -1861,6 +1861,24 @@
 // compressedString("abcde");
 // compressedString("aaaaaaaaaaaaaaabb");
 
+// 2379. Minimum Recolors to Get K Consecutive Black Blocks
+
+const minimumRecolors = function(blocks, k) {
+    
+    let minimum = Infinity;
+    const arr = [...blocks];
+
+    for (let i = 0; i <= blocks.length - k; i++) {
+        let window = arr.slice(i, k + i);
+        minimum = Math.min(minimum, window.filter(el => el === "W").length);
+    }
+
+    return minimum;
+
+};
+
+minimumRecolors("WBBWWBBWBW");
+minimumRecolors("WBWBBBW");
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

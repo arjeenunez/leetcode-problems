@@ -1863,22 +1863,43 @@
 
 // 2379. Minimum Recolors to Get K Consecutive Black Blocks
 
-const minimumRecolors = function(blocks, k) {
+// const minimumRecolors = function(blocks, k) {
     
-    let minimum = Infinity;
-    const arr = [...blocks];
+//     let minimum = Infinity;
+//     const arr = [...blocks];
 
-    for (let i = 0; i <= blocks.length - k; i++) {
-        let window = arr.slice(i, k + i);
-        minimum = Math.min(minimum, window.filter(el => el === "W").length);
-    }
+//     for (let i = 0; i <= blocks.length - k; i++) {
+//         let window = arr.slice(i, k + i);
+//         minimum = Math.min(minimum, window.filter(el => el === "W").length);
+//     }
 
-    return minimum;
+//     return minimum;
 
-};
+// };
 
-minimumRecolors("WBBWWBBWBW");
-minimumRecolors("WBWBBBW");
+// minimumRecolors("WBBWWBBWBW");
+// minimumRecolors("WBWBBBW");
+
+// 1551. Minimum Operations to Make Array Equal
+
+// const minOperations = function(n) {
+//     let total = 0;
+//     while (n > 1) {
+//         total += (n - 1);
+//         n -= 2;
+//     }
+//     return total;
+// };
+
+// minOperations(3);
+// minOperations(6);
+
+
+
+
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

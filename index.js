@@ -1844,8 +1844,6 @@
 // permute([1, 2, 3, 4]);
 
 
-
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1872,3 +1870,22 @@
 // console.log(factorial(1));
 // console.log(factorial(10));
 
+// 3. Find the nth Fibonacci number
+
+// const fibonacci = function (n) {
+//     if (n <= 1) return n;
+//     return fibonacci(n - 1) + fibonacci(n - 2);
+// }
+
+// console.log(fibonacci(5));
+// console.log(fibonacci(8));
+
+// 4. Reverse a string using recursion
+
+// const reverse = function (str) {
+//     if (!str.length) return "";
+//     return str.at(-1) + reverse(str.slice(0, str.length - 1));
+// }
+
+// console.log(reverse("abc"));
+// console.log(reverse("sunflower"));

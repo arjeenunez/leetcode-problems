@@ -1889,3 +1889,13 @@
 
 // console.log(reverse("abc"));
 // console.log(reverse("sunflower"));
+
+// 5. Calculate x^n recursively
+
+// const power = function (x, n) {
+//     if (!n) return 1;
+//     return x * power(x, n - 1);
+// }
+
+// console.log(power(2, 3));
+// console.log(power(2, 5));

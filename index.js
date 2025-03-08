@@ -1920,3 +1920,27 @@
 
 // console.log(binarySearch([1, 2, 3, 4, 5], 4));
 // console.log(binarySearch([10, 20, 32, 11, 4], 10));
+
+// 7. Generate all permutations of a given array
+
+// const permutate = function (arr) {
+
+//     if (!arr.length) return [[]];
+
+//     let result = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         let currentNumber = arr[i];
+//         let remainingNumbers = arr.slice(0, i).concat(arr.slice(i + 1));
+//         let permutations = permutate(remainingNumbers);
+
+//         for (let perm of permutations) {
+//             result.push([currentNumber, ...perm]);
+//         }
+//     }
+    
+//     return result;
+// }
+
+// console.log(permutate([1, 2, 3]));
+// console.log(permutate([1, 2, 3, 4]));

@@ -1927,6 +1927,36 @@
 // rearrangeArray([3, 1, -2, -5, 2, -4]);
 // rearrangeArray([-1, 1]);
 
+// 3208. Alternating Groups II
+
+// const numberOfAlternatingGroups = function(colors, k) {
+    
+//     let wheel = colors.concat(colors.slice(0, k - 1));
+//     let windowStart = 0;
+//     let total = 0;
+//     let check = wheel[0] ? true : false;
+    
+//     for (let windowEnd = 0; windowEnd < wheel.length; windowEnd++) {
+//         if (check !== Boolean(wheel[windowEnd])) {
+//             windowStart = windowEnd;
+//             check = wheel[windowEnd] ? true : false;
+//         }
+//         if (windowEnd - windowStart >= k - 1) {
+//             total += 1;
+//             windowStart++;
+//         }
+//         if (windowStart >= colors.length) {
+//             break;
+//         }
+//         check = !check;
+//     }
+//     return total;
+// };
+
+// numberOfAlternatingGroups([0, 1, 0, 1, 0]);
+// numberOfAlternatingGroups([0, 1, 0, 0, 1, 0, 1]);
+// numberOfAlternatingGroups([1, 1, 0, 1]);
+
 
 
 

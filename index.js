@@ -1957,7 +1957,43 @@
 // numberOfAlternatingGroups([0, 1, 0, 0, 1, 0, 1]);
 // numberOfAlternatingGroups([1, 1, 0, 1]);
 
+// 4. Median of Two Sorted Arrays
 
+// const findMedianSortedArrays = function(nums1, nums2) {
+
+//     const len = nums1.length + nums2.length;
+
+//     if (len === 1) return [...nums1, ...nums2][0];
+
+//     const mid = Math.floor(len / 2);
+//     const arr = [];
+//     let i = 0;
+//     let j = 0;
+
+//     while (i + j < mid + 1) {
+//         if ((nums1[i] ?? Infinity) < (nums2[j] ?? Infinity)) {
+//             arr.push(nums1[i]);
+//             i++;
+//         } else if (nums1[i] === nums2[j]) {
+//             arr.push(nums1[i]);
+//             i++;
+//             if (i + j >= mid + 1) break;
+//             arr.push(nums2[j]);
+//             j++;
+//         } else {
+//             arr.push(nums2[j]);
+//             j++;
+//         }
+//     }
+
+//     return len % 2 ? arr.at(-1) : (arr.at(-1) + arr.at(-2)) / 2
+    
+// };
+
+// findMedianSortedArrays([1, 3], [2]);
+// findMedianSortedArrays([1, 2], [3, 4]);
+// findMedianSortedArrays([0, 0], [0, 0]);
+// findMedianSortedArrays([1, 3], []);
 
 
 

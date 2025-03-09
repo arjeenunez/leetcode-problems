@@ -1894,7 +1894,38 @@
 // minOperations(3);
 // minOperations(6);
 
+// 2149. Rearrange Array Elements by Sign
 
+// const rearrangeArray = function(nums) {
+
+//     let check = false;
+//     let i = 0;
+//     let j = 0;
+
+//     return nums.map((el, ind, arr) => {
+//         check = !check;
+//         while (true) {
+//             if (check) {
+//                 if (arr[i] > 0) {
+//                     let item = arr[i]
+//                     i++;
+//                     return item;
+//                 }
+//                 i++;
+//             } else {
+//                 if (arr[j] < 0) {
+//                     let item = arr[j]
+//                     j++;
+//                     return item;
+//                 }
+//                 j++;
+//             }
+//         }
+//     })
+// };
+
+// rearrangeArray([3, 1, -2, -5, 2, -4]);
+// rearrangeArray([-1, 1]);
 
 
 

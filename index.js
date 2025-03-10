@@ -1,3 +1,5 @@
+"use strict";
+
 // EASY - 1945. SUM OF DIGITS OF STRING AFTER CONVERT
 
 // const getLucky = function(s, k) {
@@ -1994,6 +1996,62 @@
 // findMedianSortedArrays([1, 2], [3, 4]);
 // findMedianSortedArrays([0, 0], [0, 0]);
 // findMedianSortedArrays([1, 3], []);
+
+// 2037. Minimum Number of Moves to Seat Everyone
+
+// const minMovesToSeat = function(seats, students) {
+//     const sortMe = arr => arr.sort((a, b) => a - b);
+//     sortMe(seats);
+//     sortMe(students);
+//     return seats.reduce((total, el, i) => total += Math.abs(el - students[i]), 0);
+// };
+
+// minMovesToSeat([3, 1, 5], [2, 7, 4]);
+
+
+
+
+// FIXME: To revisit
+// const countOfSubstrings = function (word, k) {
+    
+//     const vowelAndConsonantCheck = word => {
+//         let vowels = "aeiou";
+//         let vowelCount = 0;
+//         for (const [i, vowel] of [...vowels].entries()) {
+//             if (word.includes(vowel)) vowelCount += 1;
+//         }
+//         let consonantCount = [...word].filter(el => !vowels.includes(el)).length;
+//         return [vowelCount, consonantCount];
+//     }
+
+//     let windowStart = 0;
+//     let windowEnd = windowStart + 1;
+//     let total = 0;
+
+//     while (windowStart < windowEnd) {
+//         let window = word.slice(windowStart, windowEnd);
+//         const [vowelCount, consonantCount] = vowelAndConsonantCheck(window);
+//         if (windowEnd < word.length && consonantCount <= (k ? k : k + 1)) {
+//             windowEnd++;
+//         } else {
+//             windowStart++;
+//         }
+//         if (vowelCount === 5 & consonantCount === k) total++;
+//         console.log(window, vowelCount, consonantCount)
+//     }
+//     return total;
+// };
+
+
+// console.log(countOfSubstrings("aeiouqq", 1));
+// console.log(countOfSubstrings("aeiou", 0));
+// console.log(countOfSubstrings("ieaouqqieaouqq", 1));
+// console.log(countOfSubstrings("iqeaouqi", 2));
+// console.log(countOfSubstrings("buoeia", 0));
+console.log(countOfSubstrings("aadieuoh", 1));
+
+
+
 
 
 

@@ -2048,9 +2048,34 @@
 // console.log(countOfSubstrings("ieaouqqieaouqq", 1));
 // console.log(countOfSubstrings("iqeaouqi", 2));
 // console.log(countOfSubstrings("buoeia", 0));
-console.log(countOfSubstrings("aadieuoh", 1));
+// console.log(countOfSubstrings("aadieuoh", 1));
 
+// 2423. Remove Letter To Equalize Frequency
 
+// var equalFrequency = function(word) {
+//     const checkedLetters = [];
+//     const createMap = function (str) {
+//         const map = new Map();
+//         [...str].forEach(letter => map.has(letter) ? map.set(letter, map.get(letter) + 1) : map.set(letter, 1));
+//         return map;
+//     }
+//     for (const [i, letter] of [...word].entries()) {
+//         if (checkedLetters.includes(letter)) continue;
+//         let str = word.slice(0, i) + word.slice(i + 1);
+//         checkedLetters.push(letter);
+//         const map = createMap(str);
+//         const iterator = map.values();
+//         const first = iterator.next().value;
+//         if (iterator.every(el => el === first)) return true;
+//     }
+//     return false;
+// };
+
+// console.log(equalFrequency("abcc"));
+// console.log(equalFrequency("bac"));
+// console.log(equalFrequency("aazz"));
+// console.log(equalFrequency("aabc"));
+// console.log(equalFrequency("abbcc"));
 
 
 

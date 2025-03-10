@@ -2094,6 +2094,19 @@
 // console.log(isHappy(19));
 // console.log(isHappy(2));
 
+// 2965. Find Missing and Repeated Values
+
+// var findMissingAndRepeatedValues = function(grid) {
+//     return grid
+//             .flat()
+//             .reduce((total, el, i, arr) => arr.slice(0, i).includes(el) ? [el, total[1] + i + 1] : [total[0], total[1] + i + 1 - el], [0, 0]);
+// };
+
+// findMissingAndRepeatedValues([[1, 3], [2, 2]]);
+// findMissingAndRepeatedValues([[9, 1, 7], [8, 9, 2], [3, 4, 6]]);
+
+
+
 
 
 

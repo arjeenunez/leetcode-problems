@@ -2077,6 +2077,22 @@
 // console.log(equalFrequency("aabc"));
 // console.log(equalFrequency("abbcc"));
 
+// 202. Happy Number
+
+// const isHappy = function(n) {
+//     const convert = num => num.toString().split("").reduce((total, el) => total + (el ** 2), 0);
+//     let count = 0;
+//     let checkedNums = [4];
+//     while (!checkedNums.includes(n)) {
+//         checkedNums.push(n);
+//         n = convert(n);
+//         if (n === 1) return true;
+//     }
+//     return false;
+// };
+
+// console.log(isHappy(19));
+// console.log(isHappy(2));
 
 
 

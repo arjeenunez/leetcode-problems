@@ -2105,7 +2105,22 @@
 // findMissingAndRepeatedValues([[1, 3], [2, 2]]);
 // findMissingAndRepeatedValues([[9, 1, 7], [8, 9, 2], [3, 4, 6]]);
 
+// 374. Guess Number Higher or Lower
 
+// const guessNumber = function(n) {
+//     let left = 0;
+//     let right = n;
+//     while (left <= right) {
+//         let mid = Math.floor((left + right) / 2);
+//         if (!guess(mid)) return mid;
+//         if (guess(mid) > 0) left = mid + 1;
+//         if (guess(mid) < 0) right = mid - 1;
+//     }
+//     return - 1;
+// };
+
+// guessNumber(10);
+// guessNumber(10);
 
 
 

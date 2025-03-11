@@ -2144,6 +2144,20 @@
 // isValid("(]");
 // isValid("([])");
 
+// 1047. Remove All Adjacent Duplicates In String
+
+// const removeDuplicates = function(s) {
+//     const stack = [];
+//     for (let i = 0; i < s.length; i++) {
+//         stack.at(-1) === s[i] ? stack.pop() : stack.push(s[i]);
+//     }
+//     return stack.join("");
+// };
+
+// removeDuplicates("aaaaaa");
+// removeDuplicates("aabaca");
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

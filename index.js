@@ -2224,6 +2224,23 @@
 // maximumProduct([1, 2, 3, 4]);
 // maximumProduct([-100, -2, -3, 1]);
 
+// 1299. Replace Elements with Greatest Element on Right Side
+
+// const replaceElements = function(arr) {
+//     let result = [];
+//     let max = -1;
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//         result[i] = max;
+//         max = max > arr[i] ? max : arr[i];
+//     }
+
+//     return result;
+// };
+
+// replaceElements([17, 18, 5, 4, 6, 1]);
+// replaceElements([400]);
+
+
 
 
 

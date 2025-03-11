@@ -2204,6 +2204,27 @@
 // areAlmostEqual("attack", "defend");
 // areAlmostEqual("kelb", "kelb");
 
+// 628. Maximum Product of Three Numbers
+
+// const maximumProduct = function(nums) {
+
+//     nums.sort((a, b) => a - b);
+
+//     let num1 = num2 = 0;
+
+//     num1 = nums[0] * nums[1] * nums.at(-1);
+//     num2 = nums.slice(-3).reduce((product, el) => product * el);
+
+
+//     return Math.max(num1, num2);
+
+// };
+
+// maximumProduct([1, 2, 3]);
+// maximumProduct([1, 2, 3, 4]);
+// maximumProduct([-100, -2, -3, 1]);
+
+
 
 
 

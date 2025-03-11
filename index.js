@@ -2179,6 +2179,13 @@
 // minCostClimbingStairs([10, 15, 20]);
 // minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
 
+// 2124. Check if All A's Appears Before All B's
+
+// const checkString = s => !s.includes("ba");
+
+// checkString("aaabbb");
+// checkString("abab");
+// checkString("bbb");
 
 
 

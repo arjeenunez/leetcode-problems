@@ -2157,6 +2157,30 @@
 // removeDuplicates("aaaaaa");
 // removeDuplicates("aabaca");
 
+// 746. Min Cost Climbing Stairs
+
+// const minCostClimbingStairs = function(cost) {
+//     let n = cost.length;
+//     if (n === 0) return 0;
+//     if (n === 1) return cost[0];
+
+//     let prev1 = cost[1];
+//     let prev2 = cost[0];
+
+//     for (let i = 2; i < n; i++) {
+//         let curr = cost[i] + Math.min(prev1, prev2);
+//         prev2 = prev1;
+//         prev1 = curr;
+//     }
+
+//     return Math.min(prev1, prev2);
+// };
+
+// minCostClimbingStairs([10, 15, 20]);
+// minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
+
+
+
 
 
 

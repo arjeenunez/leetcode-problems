@@ -2122,6 +2122,27 @@
 // guessNumber(10);
 // guessNumber(10);
 
+// 20. Valid Parentheses
+
+// const isValid = function(s) {
+//     const stack = [];
+//     const pairs = {"}" : "{", "]" : "[", ")" : "("};
+
+//     for (const item of s) {
+//         if (["(", "{", "["].includes(item)) {
+//             stack.push(item);
+//         } else {
+//             if (stack.pop() !== pairs[item]) return false;
+//         }
+//     }
+
+//     return stack.length === 0;
+// };
+
+// isValid("()");
+// isValid("()[]{}");
+// isValid("(]");
+// isValid("([])");
 
 
 

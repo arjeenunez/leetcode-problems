@@ -2187,6 +2187,22 @@
 // checkString("abab");
 // checkString("bbb");
 
+// 1790. Check if One String Swap Can Make Strings Equal
+
+// const areAlmostEqual = function(s1, s2) {
+//     const check = [];
+//     for (let i = 0; i < s1.length; i++) {
+//         if (s1[i] !== s2[i]) check.push(i);
+//         if (check.length > 2) return false;
+//     }
+//     if (s1[check[0]] === s2[check[1]] && s1[check[1]] === s2[check[0]]) return true;
+//     if (!check.length) return true;
+//     return false;
+// };
+
+// areAlmostEqual("bank", "kanb");
+// areAlmostEqual("attack", "defend");
+// areAlmostEqual("kelb", "kelb");
 
 
 

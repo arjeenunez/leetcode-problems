@@ -2296,6 +2296,26 @@
 // maximumCount([-2, -1, -1, 1, 2, 3]);
 // maximumCount([-3, -2, -1, 0, 0, 1, 2]);
 
+// 13. Roman to Integer
+
+// const romanToInt = function(s) {
+//     const obj = {I:1, V:5, X:10, L:50, C:100, D:500, M:1000};
+//     let total = 0;
+//     let prev = 0;
+//     for (let i = s.length - 1; i >= 0; i--) {
+//         let curr = obj[s[i]];
+//         total += curr < prev ? -curr : curr;
+//         prev = curr;
+//     }
+//     return total;
+// };
+
+// romanToInt("III");
+// romanToInt("LVIII");
+// romanToInt("MCMXCIV");
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

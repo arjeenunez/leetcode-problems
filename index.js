@@ -2259,29 +2259,42 @@
 
 // 3386. Button with Longest Push Time
 
-const buttonWithLongestTime = function(events) {
-    let minButton = events[0][0];
-    let maxDuration = events[0][1];
+// const buttonWithLongestTime = function(events) {
+//     let minButton = events[0][0];
+//     let maxDuration = events[0][1];
 
-    for (let i = 1; i < events.length; i++) {
-        let current = events[i];
-        let previous = events[i - 1]
-        let duration = current[1] - previous[1];
-        if (duration > maxDuration) {
-            maxDuration = duration;
-            minButton = current[0];
-        }
-        if (duration === maxDuration) minButton < current[0] ? null : minButton = current[0];
-    }
-    return minButton;
-};
+//     for (let i = 1; i < events.length; i++) {
+//         let current = events[i];
+//         let previous = events[i - 1]
+//         let duration = current[1] - previous[1];
+//         if (duration > maxDuration) {
+//             maxDuration = duration;
+//             minButton = current[0];
+//         }
+//         if (duration === maxDuration) minButton < current[0] ? null : minButton = current[0];
+//     }
+//     return minButton;
+// };
 
-buttonWithLongestTime([[1, 2], [2, 5], [3, 9], [1, 15]]);
-buttonWithLongestTime([[10, 5], [1, 7]]);
-buttonWithLongestTime([[7, 1], [19, 3], [9, 4], [12, 5], [2, 8], [15, 10], [18, 12], [7, 14], [19, 16]]);
+// buttonWithLongestTime([[1, 2], [2, 5], [3, 9], [1, 15]]);
+// buttonWithLongestTime([[10, 5], [1, 7]]);
+// buttonWithLongestTime([[7, 1], [19, 3], [9, 4], [12, 5], [2, 8], [15, 10], [18, 12], [7, 14], [19, 16]]);
 
+// 2529. Maximum Count of Positive Integer and Negative Integer
 
+// const maximumCount = function(nums) {
+//     let neg = pos = 0;
 
+//     for (const num of nums) {
+//         if (num < 0) neg++;
+//         if (num > 0) pos++;
+//     }
+
+//     return Math.max(neg, pos);
+// };
+
+// maximumCount([-2, -1, -1, 1, 2, 3]);
+// maximumCount([-3, -2, -1, 0, 0, 1, 2]);
 
 
 

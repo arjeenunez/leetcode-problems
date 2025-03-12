@@ -2324,6 +2324,23 @@
 
 // createHelloWorld();
 
+// 1768. Merge Strings Alternately
+
+// const mergeAlternately = function(word1, word2) {
+//     let i = 0;
+//     let result = "";
+//     while (word1[i] || word2[i]) {
+//         result += (word1[i] ?? "") + (word2[i] ?? "");
+//         i++;
+//     }
+//     return result;
+// };
+
+// mergeAlternately("abc", "pqr");
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

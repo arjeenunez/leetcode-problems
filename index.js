@@ -2242,20 +2242,43 @@
 
 // 2506. Count Pairs Of Similar Strings
 
-const similarPairs = function(words) {
-    let total = 0;
-    const arr = [...words].map(el => new Set([...el]));
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = i + 1; j < arr.length; j++) {
-            if (!arr[i].symmetricDifference(arr[j]).size) total++;
+// const similarPairs = function(words) {
+//     let total = 0;
+//     const arr = [...words].map(el => new Set([...el]));
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (!arr[i].symmetricDifference(arr[j]).size) total++;
+//         }
+//     }
+//     return total;
+// };
+
+// similarPairs(["aba", "aabb", "abcd", "bac", "aabc"]);
+// similarPairs(["aabb", "ab", "ba"]);
+// similarPairs(["nba", "cba", "dba"]);
+
+// 3386. Button with Longest Push Time
+
+const buttonWithLongestTime = function(events) {
+    let minButton = events[0][0];
+    let maxDuration = events[0][1];
+
+    for (let i = 1; i < events.length; i++) {
+        let current = events[i];
+        let previous = events[i - 1]
+        let duration = current[1] - previous[1];
+        if (duration > maxDuration) {
+            maxDuration = duration;
+            minButton = current[0];
         }
+        if (duration === maxDuration) minButton < current[0] ? null : minButton = current[0];
     }
-    return total;
+    return minButton;
 };
 
-similarPairs(["aba", "aabb", "abcd", "bac", "aabc"]);
-similarPairs(["aabb", "ab", "ba"]);
-similarPairs(["nba", "cba", "dba"]);
+buttonWithLongestTime([[1, 2], [2, 5], [3, 9], [1, 15]]);
+buttonWithLongestTime([[10, 5], [1, 7]]);
+buttonWithLongestTime([[7, 1], [19, 3], [9, 4], [12, 5], [2, 8], [15, 10], [18, 12], [7, 14], [19, 16]]);
 
 
 

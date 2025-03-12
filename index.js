@@ -2240,6 +2240,23 @@
 // replaceElements([17, 18, 5, 4, 6, 1]);
 // replaceElements([400]);
 
+// 2506. Count Pairs Of Similar Strings
+
+const similarPairs = function(words) {
+    let total = 0;
+    const arr = [...words].map(el => new Set([...el]));
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (!arr[i].symmetricDifference(arr[j]).size) total++;
+        }
+    }
+    return total;
+};
+
+similarPairs(["aba", "aabb", "abcd", "bac", "aabc"]);
+similarPairs(["aabb", "ab", "ba"]);
+similarPairs(["nba", "cba", "dba"]);
+
 
 
 

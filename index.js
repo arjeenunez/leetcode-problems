@@ -2338,8 +2338,25 @@
 
 // mergeAlternately("abc", "pqr");
 
+// 1930. Unique Length-3 Palindromic Subsequences
 
+// const countPalindromicSubsequence = function (s) {
+//     let total = 0;
+//     for (let i = 0; i <= 26; i++) {
+//         let index1 = s.indexOf(String.fromCharCode(i + 97));
+//         if (index1 === -1) continue;
+//         let index2 = s.lastIndexOf(String.fromCharCode(i + 97));
+//         if (index1 === index2 || index2 - index1 === 1) continue;
+//         const set = new Set(s.slice(index1 + 1, index2));
+//         total += set.size;
+//     }
 
+//     return total;
+// }
+
+// countPalindromicSubsequence("aabca");
+// countPalindromicSubsequence("adc");
+// countPalindromicSubsequence("bbcbaba");
 
 
 

@@ -2385,6 +2385,39 @@
 // nextGreaterElement([2, 4], [1, 2, 3, 4]);
 // nextGreaterElement([4, 1, 2], [1, 3, 4, 2]);
 
+// 692. Top K Frequent Words
+
+// const topKFrequent = function(words, k) {
+//     let hashMap = new Map();
+
+//     words.forEach(word => hashMap.set(word, (hashMap.get(word) || 0) + 1));
+
+//     let result = [];
+
+//     for (let item of hashMap.entries()) {
+//         result.push(item);
+//         result.sort((a, b) => {
+//             let freqInd = b[1] - a[1];
+//             if (!freqInd) {
+//                 let len = Math.max(a[0].length, b[0].length);
+//                 for (let i = 0; i < len; i++) {
+//                     if (a[0][i] === b[0][i]) continue;
+//                     if (!a[0][i]) return -1;
+//                     if (!b[0][i]) return 1;
+//                     return a[0][i].charCodeAt() - b[0][i].charCodeAt();
+//                 }
+//             }
+//             return freqInd;
+//         });
+//         if (result.length > k) result.pop();
+//     }
+//     return result.map(el => el[0]);
+// };
+
+// topKFrequent(["i", "love", "leetcode", "i", "love", "coding"]);
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

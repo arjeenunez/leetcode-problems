@@ -2432,7 +2432,20 @@
 
 // topKFrequent([1, 1, 1, 2, 2, 3]);
 
+// 1636. Sort Array by Increasing Frequency
 
+// const frequencySort = function(nums) {
+//     const map = new Map();
+//     nums.forEach(el => map.set(el, (map.get(el) || 0) + 1));
+//     const result = [];
+//     for (const item of map) {
+//         result.push(item);
+//         result.sort((a, b) => a[1] - b[1] || b[0] - a[0]);
+//     }
+//     return result.flatMap(el => new Array(el[1]).fill(el[0]));
+// };
+
+// frequencySort([1, 1, 2, 2, 2, 3]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

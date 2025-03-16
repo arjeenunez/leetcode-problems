@@ -2370,8 +2370,20 @@
 // repeatedNTimes([1, 2, 3, 3]);
 // repeatedNTimes([2, 1, 2, 5, 3, 2]);
 
+// 496. Next Greater Element I
 
+// const nextGreaterElement = function(nums1, nums2) {
+//     return nums1.map(el => {
+//         let ind = nums2.indexOf(el);
+//         for (let i = ind + 1; i < nums2.length; i++) {
+//             if (nums2[i] > el) return nums2[i];
+//         }
+//         return -1;
+//     })
+// };
 
+// nextGreaterElement([2, 4], [1, 2, 3, 4]);
+// nextGreaterElement([4, 1, 2], [1, 3, 4, 2]);
 
 
 

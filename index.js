@@ -2358,6 +2358,21 @@
 // countPalindromicSubsequence("adc");
 // countPalindromicSubsequence("bbcbaba");
 
+// 961. N-Repeated Element in Size 2N Array
+
+// const repeatedNTimes = function(nums) {
+//     for (let i = 0; i < nums.length; i++) {
+//         if (i !== nums.lastIndexOf(nums[i])) return nums[i];
+//     }
+//     return -1;
+// };
+
+// repeatedNTimes([1, 2, 3, 3]);
+// repeatedNTimes([2, 1, 2, 5, 3, 2]);
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

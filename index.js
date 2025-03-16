@@ -2447,6 +2447,31 @@
 
 // frequencySort([1, 1, 2, 2, 2, 3]);
 
+// 2190. Most Frequent Number Following Key In an Array
+
+// const mostFrequent = function(nums, key) {
+//     const map = new Map();
+    
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] === key) {
+//             map.set(nums[i + 1], (map.get(nums[i + 1]) || 0) + 1);
+//         }
+//     }
+
+//     const result = [];
+
+//     for (let item of map) {
+//         if (!result.length) result.push(item);
+//         if (result.at(-1)[1] < item[1]) result.push(item);
+//     }
+
+//     return +result.at(-1)[0];
+// };
+
+// mostFrequent([1, 100, 200, 1, 100]);
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

@@ -2416,6 +2416,21 @@
 
 // topKFrequent(["i", "love", "leetcode", "i", "love", "coding"]);
 
+// 347. Top K Frequent Elements
+
+// const topKFrequent = function(nums, k) {
+//     const hashMap = new Map();
+//     nums.forEach(num => hashMap.set(num, (hashMap.get(num) || 0) + 1));
+//     const result = [];
+//     for (let item of hashMap) {
+//         result.push(item);
+//         result.sort((a, b) => b[1] - a[1]);
+//         if (result.length > k) result.pop();
+//     }
+//     return result.map(el => el[0]);
+// };
+
+// topKFrequent([1, 1, 1, 2, 2, 3]);
 
 
 

@@ -2508,6 +2508,22 @@
 // minDeletions("aab");
 // minDeletions("aaabbbcc");
 
+// 2206. Divide Array Into Equal Pairs
+
+// const divideArray = function(nums) {
+
+//     // Create an object to determine occurence per number
+//     const obj = nums.reduce((acc, curr) => {
+//         acc[curr] = (acc[curr] || 0) + 1;
+//         return acc;
+//     }, {});
+
+//     // Get occurence via the object values array and return if every element is divisible by 2 (pairs).
+//     return Object.values(obj).every(el => el % 2 === 0);
+// };
+
+// divideArray([3, 2, 3, 2, 2, 2]);
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

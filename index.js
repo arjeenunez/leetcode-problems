@@ -2470,6 +2470,43 @@
 
 // mostFrequent([1, 100, 200, 1, 100]);
 
+// 1647. Minimum Deletions to Make Character Frequencies Unique
+
+// const minDeletions = function(s) {
+
+//     // Find occurences of letters via hashmap and sorting
+
+//     const map = new Map();
+    
+//     [...s].forEach(el => map.set(el, (map.get(el) || 0) + 1));
+    
+//     const arr = [];
+
+//     for (let item of map) {
+//         arr.push(item[1]);
+//         arr.sort((a, b) => a - b);
+//     }
+
+//     // Check for duplicates via looping and number of deletions
+
+//     let changes = 0;
+
+//     let i = 1;
+
+//     while (i < arr.length) {
+//         if (arr.slice(0, i).includes(arr[i]) && arr[i]) {
+//             arr[i] -= 1;
+//             changes++;
+//             continue;
+//         }
+//         i++;
+//     }
+
+//     return changes;
+// };
+
+// minDeletions("aab");
+// minDeletions("aaabbbcc");
 
 
 

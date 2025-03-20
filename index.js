@@ -2524,6 +2524,20 @@
 
 // divideArray([3, 2, 3, 2, 2, 2]);
 
+// 3487. Maximum Unique Subarray Sum After Deletion
+
+// const maxSum = function(nums) {
+//     const set = new Set(nums)
+//     const sortNums = [...set].toSorted((a, b) => b - a);
+//     if (sortNums[0] < 0) return sortNums[0];
+//     return sortNums.reduce((total, el) => el < 0 ? total : total + el, 0);
+// };
+
+// maxSum([1, 2, 3, 4, 5]);
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

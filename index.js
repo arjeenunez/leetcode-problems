@@ -2746,6 +2746,27 @@
 
 // countSymmetricIntegers(1, 100);
 
+// 3349. Adjacent Increasing Subarrays Detection I
+
+// const hasIncreasingSubarrays = function(nums, k) {
+
+//     const increasing = arr => {
+//         for (let i = 1; i < arr.length; i++) {
+//             if (arr[i] <= arr[i - 1]) return false;
+//         }
+//         return true;
+//     }
+
+//     for (let i = k * 2; i <= nums.length; i++) {
+//         const arr1 = nums.slice(i - k, i);
+//         const arr2 = nums.slice(i - k * 2, i - k);
+//         if(increasing(arr1) && increasing(arr2)) return true;
+
+//     }
+//     return false;
+// };
+
+// hasIncreasingSubarrays([2, 5, 7, 8, 9, 2, 3, 4, 3, 1]);
 
 
 

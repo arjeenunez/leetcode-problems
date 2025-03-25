@@ -2801,6 +2801,18 @@
 
 // findTheLongestBalancedSubstring("01000111");
 
+// 2605. Form Smallest Number From Two Digit Arrays
+
+// const minNumber = function(nums1, nums2) {
+//     const set3 = [...(new Set(nums1)).intersection(new Set(nums2))];
+//     if (set3.length) return Math.min(...set3);
+//     const digit1 = Math.min(...nums1);
+//     const digit2 = Math.min(...nums2);
+//     return digit1 < digit2 ? +`${digit1}${digit2}` : +`${digit2}${digit1}`;
+// };
+
+// minNumber([4, 1, 3], [5, 7]);
+
 
 
 

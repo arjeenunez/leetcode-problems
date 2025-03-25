@@ -2599,7 +2599,28 @@
 
 // totalNumbers([1, 2, 3, 4]);
 
+// 3364. Minimum Positive Sum Subarray 
 
+// const minimumSumSubarray = function (nums, l, r) {
+//     let len = l;
+//     let minimum = 100000;
+//     while (len <= r) {
+//         let windowStart = 0;
+//         let total = 0;
+//         for (let windowEnd = 0; windowEnd < nums.length; windowEnd++) {
+//             total += nums[windowEnd];
+//             if (windowEnd - windowStart >= len - 1) {
+//                 if (total > 0) minimum = Math.min(minimum, total);
+//                 total -= nums[windowStart];
+//                 windowStart++;
+//             }
+//         }
+//         len++;
+//     }
+//     return minimum === 100000 ? -1 : minimum;
+// }
+
+// minimumSumSubarray([-2, 2, -3, 1]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2768,6 +2768,28 @@
 
 // hasIncreasingSubarrays([2, 5, 7, 8, 9, 2, 3, 4, 3, 1]);
 
+// 2475. Number of Unequal Triplets in Array
+
+// const unequalTriplets = function(nums) {
+//     let total = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         for (let j = i + 1; j < nums.length; j++) {
+//             if (nums[i] === nums[j]) continue;
+//             for (let k = j + 1; k < nums.length; k++){
+//                 if (nums[k] === nums[i] || nums[k] === nums[j]) continue;
+//                 total++;
+//             }
+//         }
+//     }
+//     return total;
+// };
+
+// unequalTriplets([4, 4, 2, 4, 3]);
+
+
+
+
+
 
 
 

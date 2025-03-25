@@ -2831,7 +2831,23 @@
 
 // minMaxDifference(11891);
 
+// 2562. Find the Array Concatenation Value
 
+// const findTheArrayConcVal = function(nums) {
+//     let total = 0;
+//     let left = 0;
+//     let right = nums.length - 1;
+//     while (left <= right) {
+//         let dig1 = nums[left]
+//         let dig2 = left !== right ? nums[right] : "";
+//         total += Number(dig1 + "" + dig2);
+//         left++;
+//         right--;
+//     }
+//     return total;
+// };
+
+// findTheArrayConcVal([7, 52, 2, 4]);
 
 
 

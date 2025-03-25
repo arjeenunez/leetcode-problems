@@ -2535,6 +2535,16 @@
 
 // maxSum([1, 2, 3, 4, 5]);
 
+// 3492. Maximum Containers on a Ship
+
+// const maxContainers = function(n, w, maxWeight) {
+//     totalByWeight = Math.floor(maxWeight / w);
+//     totalByCapacity = n ** 2;
+//     return Math.min(totalByWeight, totalByCapacity);
+// };
+
+maxContainers(2, 3, 15);
+
 
 
 

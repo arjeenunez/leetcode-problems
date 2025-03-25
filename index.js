@@ -2622,6 +2622,21 @@
 
 // minimumSumSubarray([-2, 2, -3, 1]);
 
+// 2578. Split With Minimum Sum
+
+// const splitNum = function(num) {
+//     const arr = num.toString().split("").toSorted((a, b) => a - b);
+//     let digit1 = "";
+//     let digit2 = "";
+//     for (let i = 0; i < arr.length; i++) {
+//         i % 2 ? digit1 += arr[i] : digit2 += arr[i];
+//     }
+//     return +digit1 + +digit2;
+// }
+
+// splitNum(12345678);
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

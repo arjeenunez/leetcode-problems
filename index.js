@@ -2644,6 +2644,30 @@
 
 // constructTransformedArray([3, -2, 1, 1]);
 
+// 3304. Find the K-th Character in String Game I
+
+// const kthCharacter = function (k) {
+//     const alpha = new Map();
+
+//     for (let i = 0; i < 26; i++) {
+//         alpha.set(String.fromCharCode(i + 97), String.fromCharCode(i + 98 > 122 ? 97 : i + 98));
+//     }
+
+//     let word = "a";
+
+//     while (!word[k - 1]) {
+//         let newWord = "";
+//         for (let i = 0; i < word.length; i++) {
+//             newWord += alpha.get(word[i]);
+//         }
+//         word += newWord;
+//     }
+
+//     return word[k - 1];
+// }
+
+// kthCharacter(5);
+
 
 
 

@@ -2680,6 +2680,20 @@
 
 // haveConflict(["01:15", "02:00"], ["02:00", "03:00"]);
 
+// 2455. Average Value of Even Numbers That Are Divisible by Three
+
+// const averageValue = function(nums) {
+//     const fNums = nums.filter(el => el % 2 === 0 && el % 3 === 0);
+//     if (!fNums.length) return 0;
+//     return Math.floor(fNums.reduce((total, el) => total + el) / fNums.length);
+// };
+
+// averageValue([1, 3, 6, 10, 12, 15]);
+
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2786,8 +2786,20 @@
 
 // unequalTriplets([4, 4, 2, 4, 3]);
 
+// 2609. Find the Longest Balanced Substring of a Binary String
 
+// const findTheLongestBalancedSubstring = function(s) {
+//     let target = "01";
+//     let total = 0;
+//     while (target.length <= s.length) {
+//         if (!s.includes(target)) return total;
+//         total = Math.max(total, target.length);
+//         target = 0 + target + 1;
+//     }
+//     return total;
+// };
 
+// findTheLongestBalancedSubstring("01000111");
 
 
 

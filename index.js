@@ -2668,7 +2668,17 @@
 
 // kthCharacter(5);
 
+// 2446. Determine if Two Events Have Conflict
 
+// const haveConflict = function(event1, event2) {
+//     const military = str => +str.slice(0, 2) + +str.slice(3) / 60;
+//     const times1 = event1.map(el => military(el));
+//     const times2 = event2.map(el => military(el));
+//     const arr = [times1, times2].toSorted((a, b) => a[0] - b[0]);
+//     return arr[1][0] <= arr[0][1];
+// };
+
+// haveConflict(["01:15", "02:00"], ["02:00", "03:00"]);
 
 
 

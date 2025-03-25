@@ -2720,6 +2720,34 @@
 
 // distinctAverages([4, 1, 4, 0, 3, 5]);
 
+// 2843. Count Symmetric Integers
+
+// const countSymmetricIntegers = function(low, high) {
+
+//     const isSymmetrical = num => {
+//         let str = num.toString();
+//         if (str.length % 2) return false;
+//         let sum1 = 0, sum2 = 0;
+//         for (let i = 0; i < str.length / 2; i++) {
+//             sum1 += +str[i];
+//             sum2 += +str[i + (str.length / 2)];
+//         }
+//         return sum1 === sum2;
+//     }
+    
+//     let total = 0;
+
+//     for (let i = low; i <= high; i++) {
+//         if (isSymmetrical(i)) total++;
+//     }
+
+//     return total;
+// };
+
+// countSymmetricIntegers(1, 100);
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

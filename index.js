@@ -2543,7 +2543,25 @@
 //     return Math.min(totalByWeight, totalByCapacity);
 // };
 
-maxContainers(2, 3, 15);
+// maxContainers(2, 3, 15);
+
+// 3477. Fruits Into Baskets II
+
+// const numOfUnplacedFruits = function(fruits, baskets) {
+
+//     for (const fruit of fruits) {
+//         for (let i = 0; i < baskets.length; i++) {
+//             if (fruit <= baskets[i]) {
+//                 baskets.splice(i, 1);
+//                 break;
+//             }
+//         }
+//     }
+//     return baskets.length;
+// };
+
+// numOfUnplacedFruits([4, 2, 5], [3, 5, 4]);
+
 
 
 

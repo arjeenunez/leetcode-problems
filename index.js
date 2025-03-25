@@ -2562,6 +2562,22 @@
 
 // numOfUnplacedFruits([4, 2, 5], [3, 5, 4]);
 
+// 3438. Find Valid Pair of Adjacent Digits in String
+
+// const findValidPair = function(s) {
+//     const map = new Map();
+//     [...s].forEach(num => map.set(num, (map.get(num) || 0) + 1));
+//     for (let i = 1; i < s.length; i++) {
+//         if (s[i] === s[i - 1]) continue;
+//         if (map.get(s[i]) !== +s[i]) continue;
+//         if (map.get(s[i - 1]) !== +s[i - 1]) continue;
+//         return s.slice(i - 1, i + 1);
+//     }
+//     return "";
+// };
+
+// findValidPair("2523533");
+
 
 
 

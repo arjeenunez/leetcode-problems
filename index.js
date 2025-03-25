@@ -2703,8 +2703,22 @@
 
 // applyOperations([1, 2, 2, 1, 1, 0]);
 
+// 2465. Number of Distinct Averages
 
+// const distinctAverages = function(nums) {
+//     const sorted = nums.toSorted((a, b) => a - b);
+//     let left = 0;
+//     let right = nums.length - 1;
+//     const set = new Set();
+//     while (left < right) {
+//         set.add((sorted[left] + sorted[right]) / 2)
+//         left++;
+//         right--;
+//     }
+//     return set.size;
+// };
 
+// distinctAverages([4, 1, 4, 0, 3, 5]);
 
 
 

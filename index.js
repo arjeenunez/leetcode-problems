@@ -2813,6 +2813,26 @@
 
 // minNumber([4, 1, 3], [5, 7]);
 
+// 2566. Maximum Difference by Remapping a Digit
+
+// const minMaxDifference = function(num) {
+//     let str = num.toString();
+//     let maximum = -Infinity;
+//     let minimum = Infinity;
+
+//     for (let i = 0; i <= 9; i++) {
+//         maximum = Math.max(maximum, +str.replaceAll(i, 9));
+//         minimum = Math.min(minimum, +str.replaceAll(i, 0));
+//     }
+    
+//     return maximum - minimum;
+
+// };
+
+// minMaxDifference(11891);
+
+
+
 
 
 

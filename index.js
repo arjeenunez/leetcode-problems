@@ -2690,6 +2690,18 @@
 
 // averageValue([1, 3, 6, 10, 12, 15]);
 
+// 2460. Apply Operations to an Array
+
+// const applyOperations = function(nums) {
+//     for (let i = 1; i < nums.length; i++) {
+//         if (nums[i] !== nums[i - 1]) continue;
+//         nums[i - 1] *= 2;
+//         nums[i] = 0;
+//     }
+//     return nums.filter(el => el > 0).concat(nums.filter(el => !el));
+// };
+
+// applyOperations([1, 2, 2, 1, 1, 0]);
 
 
 

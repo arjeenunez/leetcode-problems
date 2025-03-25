@@ -2636,6 +2636,16 @@
 
 // splitNum(12345678);
 
+// 3379. Transformed Array
+
+// const constructTransformedArray = function(nums) {
+//     return nums.map((el, i, arr) => arr.at((i + el) % nums.length));
+// };
+
+// constructTransformedArray([3, -2, 1, 1]);
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

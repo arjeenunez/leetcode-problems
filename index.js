@@ -2578,8 +2578,26 @@
 
 // findValidPair("2523533");
 
+// 3483. Unique 3-Digit Even Numbers
 
+// const totalNumbers = function(digits) {
+//     const set = new Set();
 
+//     for (let i = 0; i < digits.length; i++) {
+//         if (digits[i] % 2 !== 0) continue;
+//         for(let j = 0; j < digits.length; j++) {
+//             if (j === i) continue;
+//             for (let k = 0; k < digits.length; k++) {
+//                 if(i === k || j === k) continue;
+//                 if (!digits[k]) continue;
+//                 set.add(`${digits[k]}${digits[j]}${digits[i]}`);
+//             }
+//         }
+//     }
+//     return set.size;
+// };
+
+// totalNumbers([1, 2, 3, 4]);
 
 
 

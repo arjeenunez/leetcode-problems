@@ -2990,6 +2990,16 @@
 
 // merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
 
+// 58. Length of Last Word
+
+// const lengthOfLastWord = function(s) {
+//     return s.trim().split(" ").at(-1).length;
+// };
+
+// lengthOfLastWord("Hello World");
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

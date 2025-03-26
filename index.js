@@ -2849,6 +2849,21 @@
 
 // findTheArrayConcVal([7, 52, 2, 4]);
 
+// 2437. Number of Valid Clock Times
+
+// const countTime = function(time) {
+//     const hrs = Array.from({length: 24}, (el, i) => i.toString().padStart(2, "0"));
+//     const hrStep1 = hrs.filter(el => time[0] === "?" ? el : time[0] === el[0]); 
+//     const hrStep2 = hrStep1.filter(el => time[1] === "?" ? el : time[1] === el[1]);
+//     const min1 = time[3] === "?" ? 6 : 1;
+//     const min2 = time[4] === "?" ? 10 : 1;
+//     return hrStep2.length * min1 * min2;
+// };
+
+// countTime("0?:0?");
+
+
+
 
 
 

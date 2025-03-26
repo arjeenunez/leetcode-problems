@@ -2953,6 +2953,22 @@
 
 // removeDuplicates([1, 1, 2]);
 
+// 27. Remove Element
+
+// const removeElement = function(nums, val) {
+//     let x = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] === val) continue;
+//         nums[x] = nums[i];
+//         x++;
+//     }
+//     nums.splice(x)
+// };
+
+// removeElement([3, 2, 2, 3]);
+
+
+
 
 
 

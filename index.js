@@ -2967,6 +2967,16 @@
 
 // removeElement([3, 2, 2, 3]);
 
+// 28. Find the Index of the First Occurrence in a String
+
+const strStr = function(haystack, needle) {
+    for (let i = needle.length; i <= haystack.length; i++) {
+        if (haystack.slice(i - needle.length, i) === needle) return i - needle.length;
+    }
+    return -1;
+};
+
+strStr("sadbutsad", "sad");
 
 
 

@@ -2938,8 +2938,20 @@
 
 // longestCommonPrefix(["flower", "flow", "flight"]);
 
+// 26. Remove Duplicates from Sorted Array
 
+// const removeDuplicates = function(nums) {
+//     let x = 0;
+//     for (let i = 1; i < nums.length; i++) {
+//         if (nums[x] !== nums[i]) {
+//             x++;
+//             nums[x] = nums[i];
+//         }
+//     }
+//     nums.splice(x + 1)
+// };
 
+// removeDuplicates([1, 1, 2]);
 
 
 

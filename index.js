@@ -2920,6 +2920,29 @@
 // isPalindrome(10);
 // isPalindrome(-121);
 
+// 14. Longest Common Prefix
+
+// const longestCommonPrefix = function(strs) {
+//     let longest = strs[0];
+//     for (let i = 1; i < strs.length; i++) {
+//         let word = strs[i];
+//         for (let j = 0; j < longest.length; j++) {
+//             if (longest[j] === word[j]) continue;
+//             longest = longest.slice(0, j);
+//             break;
+//         }
+//         if (longest === "") return longest;
+//     }
+//     return longest;
+// };
+
+// longestCommonPrefix(["flower", "flow", "flight"]);
+
+
+
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

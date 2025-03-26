@@ -2897,8 +2897,28 @@
 
 // twoSum([2, 7, 11, 15], 9);
 
+// 9. Palindrome Number
 
+// const isPalindrome = function(x) {
+    
+//     if (x < 0) return false;
+    
+//     let xSplit = x;
+//     let total = 0;
 
+//     while (xSplit > 0) {
+//         total *= 10;
+//         total += xSplit % 10;
+//         xSplit = Math.floor(xSplit / 10);
+//     }
+
+//     return x === total;
+
+// };
+
+// isPalindrome(121);
+// isPalindrome(10);
+// isPalindrome(-121);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

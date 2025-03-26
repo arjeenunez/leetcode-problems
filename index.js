@@ -2884,9 +2884,18 @@
 
 // minOperations([[529, 529, 989], [989, 529, 345], [989, 805, 69]]);
 
+// 1. Two Sum
 
+// const twoSum = function(nums, target) {
+//     const map = new Map();
+//     for (let i = 0; i < nums.length; i++) {
+//         let num = nums[i];
+//         if (map.has(target - num) && map.get(target - num) !== i) return [i, map.get(target - num)];
+//         map.set(num, i);
+//     }
+// }
 
-
+// twoSum([2, 7, 11, 15], 9);
 
 
 

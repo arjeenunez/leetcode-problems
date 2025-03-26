@@ -2969,17 +2969,26 @@
 
 // 28. Find the Index of the First Occurrence in a String
 
-const strStr = function(haystack, needle) {
-    for (let i = needle.length; i <= haystack.length; i++) {
-        if (haystack.slice(i - needle.length, i) === needle) return i - needle.length;
-    }
-    return -1;
-};
+// const strStr = function(haystack, needle) {
+//     for (let i = needle.length; i <= haystack.length; i++) {
+//         if (haystack.slice(i - needle.length, i) === needle) return i - needle.length;
+//     }
+//     return -1;
+// };
 
-strStr("sadbutsad", "sad");
+// strStr("sadbutsad", "sad");
 
+// 88. Merge Sorted Array
 
+// const merge = function(nums1, m, nums2, n) {
+//     for (let i = 0; i < nums2.length; i++) {
+//         nums1[m] = nums2[i];
+//         m++;
+//     }
+//     nums1.sort((a, b) => a - b);
+// };
 
+// merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

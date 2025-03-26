@@ -2862,6 +2862,30 @@
 
 // countTime("0?:0?");
 
+// 2033. Minimum Operations to Make a Uni-Value Grid
+
+// const minOperations = function(grid, x) {
+
+//     const arr = grid.flat().sort((a, b) => a - b);
+//     const mid = Math.floor((arr.length - 1) / 2);
+
+//     let total = 0;
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === arr[mid]) continue;
+//         let optns = Math.abs(arr[i] - arr[mid]);
+//         if (optns % x) return -1;
+//         total += optns;
+//     }
+
+//     return total / x;
+
+// };
+
+// minOperations([[529, 529, 989], [989, 529, 345], [989, 805, 69]]);
+
+
+
 
 
 

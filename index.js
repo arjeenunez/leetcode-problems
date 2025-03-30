@@ -3054,8 +3054,21 @@
 // mySqrt(0);
 // mySqrt(5);
 
+// 66. Plus One
 
+// const plusOne = function(digits) {
+//     let rem = 1;
+//     for (let i = digits.length - 1; i >= 0; i--) {
+//         let sum = digits[i] + rem;
+//         sum > 9 ? rem = 1 : rem = 0;
+//         digits[i] = sum % 10;
+//     }
+//     if (rem) digits.unshift(rem);
+//     return digits
+// };
 
+// plusOne([1, 2, 3]);
+// plusOne([4, 3, 2, 1]);
 
 
 

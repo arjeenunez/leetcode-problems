@@ -3070,6 +3070,33 @@
 // plusOne([1, 2, 3]);
 // plusOne([4, 3, 2, 1]);
 
+// 125. Valid Palindrome
+
+// const isPalindrome = function(s) {
+
+//     const set = new Set([..."abcdefghijklmnopqrstuvwxyz0123456789"]);
+//     const arr = [];
+
+//     for (let char of s) {
+//         let lowerChar = char.toLowerCase();
+//         if (set.has(lowerChar)) arr.push(lowerChar);
+//     }
+
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] !== arr[arr.length - 1 - i]) return false;
+//     }
+
+//     return true;
+    
+// };
+
+// isPalindrome("A man, a plan, a canal: Panama");
+
+
+
+
+
 
 
 

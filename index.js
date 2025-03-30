@@ -3123,6 +3123,20 @@
 
 // majorityElement([3, 2, 3]);
 
+// 191. Number of 1 Bits
+
+// const hammingWeight = function(n) {
+//     let total = 0;
+//     const bin = n.toString(2);
+//     for (let dig of bin) {
+//         if (+dig) total++;
+//     }
+//     return total;
+// };
+
+// hammingWeight(11);
+
+
 
 
 

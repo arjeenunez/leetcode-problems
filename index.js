@@ -3109,9 +3109,19 @@
 
 // singleNumber([2, 2, 1]);
 
+// 169. Majority Element
 
+// const majorityElement = function(nums) {
+//     const map = new Map();
+//     const limit = nums.length / 2;
+//     for (const num of nums) {
+//         let freq = (map.get(num) || 0) + 1;
+//         if (freq > limit) return num;
+//         map.set(num, freq);
+//     }
+// };
 
-
+// majorityElement([3, 2, 3]);
 
 
 

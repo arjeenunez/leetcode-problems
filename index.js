@@ -3093,6 +3093,21 @@
 
 // isPalindrome("A man, a plan, a canal: Panama");
 
+// 136. Single Number
+
+// const singleNumber = function(nums) {
+//     let obj ={};
+//     for(let item of nums){
+//         obj[item] =(obj[item] || 0) + 1;
+//     }
+//     for(let item in obj){
+//         if(obj[item] === 1){
+//             return Number(item)
+//         }
+//     }
+// };
+
+// singleNumber([2, 2, 1]);
 
 
 

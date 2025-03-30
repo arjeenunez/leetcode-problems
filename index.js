@@ -2998,6 +2998,44 @@
 
 // lengthOfLastWord("Hello World");
 
+// 763. Partition Labels
+
+// const partitionLabels = function(s) {
+
+//     const set = new Set(s);
+//     const map = new Map();
+
+//     set.forEach(el => map.set(el, [s.indexOf(el), s.lastIndexOf(el)]));
+
+//     let results = [];
+
+//     for (let [letter, currRange] of map) {
+//         if (!results.length) {
+//             results.push(currRange);
+//             continue;
+//         }
+
+//         let prevRange = results.at(-1);
+        
+//         if (currRange[0] < prevRange[1]) {
+//             if (currRange[1] > prevRange[1]) prevRange[1] = currRange[1];
+//         } else {
+//             results.push(currRange);
+//         }
+//     }
+    
+//     return results.map(el => el[1] - el[0] + 1);
+
+// };
+
+// partitionLabels("eccbbbbdec");
+// partitionLabels("ababcbacadefegdehijhklij");
+
+
+
+
+
+
 
 
 

@@ -3031,6 +3031,32 @@
 // partitionLabels("eccbbbbdec");
 // partitionLabels("ababcbacadefegdehijhklij");
 
+// 69. Sqrt(x)
+
+// const mySqrt = function(x) {
+//     let left = 0, right = x;
+    
+//     while (left <= right) {
+//         let mid = Math.floor((left + right) / 2);
+//         if (Math.floor(x / mid) === mid) return mid;   
+//         if (Math.floor(x / mid) === mid - 1) return mid - 1;   
+//         if (mid * mid === x) return mid
+//         if (mid * mid < x) left = mid + 1;
+//         if (mid * mid > x) right = mid - 1;
+//     }
+
+//     return -1;
+
+// };
+
+// mySqrt(4);
+// mySqrt(8);
+// mySqrt(0);
+// mySqrt(5);
+
+
+
+
 
 
 

@@ -3145,7 +3145,22 @@
 // addDigits(0);
 // addDigits(1234);
 
+// 242. Valid Anagram
 
+// const isAnagram = function(s, t) {
+//     if (s.length !== t.length) return false;
+
+//     const map = new Map();
+//     [...t].forEach(letter => map.set(letter, (map.get(letter) || 0) + 1));
+//     for (let letter of s) {
+//         if (!map.has(letter)) return false;
+//         if (map.get(letter) - 1 < 0) return false;
+//         map.set(letter, map.get(letter) - 1);
+//     }
+//     return true;
+// };
+
+// isAnagram("anagram", "nagaram");
 
 
 

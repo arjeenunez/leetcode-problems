@@ -3222,6 +3222,26 @@
 
 // wordPattern("abba", "cat dog dog cat");
 
+// 205. Isomorphic Strings
+
+// const isIsomorphic = function(s, t) {
+
+//     const mapa = new Map();
+//     const seta = new Set();
+//     const sLength = s.length;
+
+//     for (let i = 0; i < sLength; i++) {
+//         if (!mapa.has(s[i]) && !seta.has(t[i])) {
+//             mapa.set(s[i], t[i]);
+//             seta.add(t[i]);
+//         }
+//         if(mapa.get(s[i]) !== t[i]) return false;
+//     }
+
+//     return true;
+// };
+
+// isIsomorphic("egg", "add");
 
 
 

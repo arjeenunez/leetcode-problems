@@ -3181,6 +3181,19 @@
 
 // summaryRanges([0, 1, 2, 4, 5, 7]);
 
+// 217. Contains Duplicate
+
+// const containsDuplicate = function(nums) {
+//     const map = new Map();
+//     for (let num of nums) {
+//         if (map.has(num)) return true;
+//         map.set(num, 1);
+//     }
+//     return false;
+// };
+
+// containsDuplicate([1, 2, 3, 1]);
+
 
 
 

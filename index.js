@@ -3194,6 +3194,21 @@
 
 // containsDuplicate([1, 2, 3, 1]);
 
+// 268. Missing Number
+
+// const missingNumber = function(nums) {
+//     const arr = new Array(nums.length + 1).fill(0);
+//     for (let i = 0; i < nums.length; i++) {
+//         arr[nums[i]] = 1;
+//     }
+//     return arr.indexOf(0);
+// };
+
+// missingNumber([3, 0, 1]);
+
+
+
+
 
 
 

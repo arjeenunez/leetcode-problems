@@ -3162,6 +3162,29 @@
 
 // isAnagram("anagram", "nagaram");
 
+// 228. Summary Ranges
+
+// const summaryRanges = function(nums) {
+//     const total = [];
+//     let range = [nums[0], nums[0]];
+//     for (let i = 1; i <= nums.length; i++) {
+//         if (range[1] + 1 === nums[i]) {
+//             range[1] = nums[i];
+//         } else {
+//             range[0] !== range[1] ? total.push(`${range[0]}->${range[1]}`) : total.push(`${range[0]}`)
+//             range[0] = nums[i];
+//             range[1] = nums[i];
+//         }
+//     }
+//     return total;
+// }
+
+// summaryRanges([0, 1, 2, 4, 5, 7]);
+
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -3243,8 +3243,24 @@
 
 // isIsomorphic("egg", "add");
 
+// 283. Move Zeroes
 
+// const moveZeroes = function(nums) {
+//     let marker = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i]) {
+//             if (i === marker) {
+//                 marker++;
+//                 continue;
+//             };
+//             nums[marker] = nums[i];
+//             nums[i] = 0;
+//             marker++;
+//         }
+//     }
+// };
 
+// moveZeroes([0, 1, 0, 3, 12, 0]);
 
 
 

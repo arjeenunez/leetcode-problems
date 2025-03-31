@@ -3206,6 +3206,21 @@
 
 // missingNumber([3, 0, 1]);
 
+// 290. Word Pattern
+
+// const wordPattern = function(pattern, s) {
+
+//     let pattArr = [...new Set(pattern.split(""))];
+//     let strArr = [...new Set(s.split(" "))];
+    
+//     if (strArr.length !== pattArr.length) return false;
+    
+//     const mapa = new Map();
+//     pattArr.forEach((el, i) => mapa.set(el, strArr[i]));
+//     return [...pattern].map(el => mapa.get(el)).join(" ") === s;
+// };
+
+// wordPattern("abba", "cat dog dog cat");
 
 
 

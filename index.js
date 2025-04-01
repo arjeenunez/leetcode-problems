@@ -3271,6 +3271,37 @@
 
 // moveZeroes([0, 1, 0, 3, 12, 0]);
 
+// 67. Add Binary
+
+// const addBinary = function(a, b) {
+//     let str = "";
+//     let rem = 0;
+//     let i = -1;
+//     while(a.at(i) !== undefined || b.at(i) !== undefined) {
+//         let dig1 = a.at(i) ?? 0;
+//         let dig2 = b.at(i) ?? 0;
+//         let sum = Number(dig1) + Number(dig2) + rem;
+
+//         if (sum <= 1) {
+//             str = sum + str;
+//             rem = 0;
+//         }
+//         if (sum === 2) {
+//             str = "0" + str;
+//             rem = 1;
+//         }
+//         if (sum === 3) {
+//             str = "1" + str;
+//             rem = 1;
+//         }
+//         i--;
+//     }
+
+//     return rem ? rem + str : str;
+// };
+
+// addBinary("11", "1");
+
 
 
 

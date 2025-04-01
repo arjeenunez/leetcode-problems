@@ -3148,15 +3148,24 @@
 // 242. Valid Anagram
 
 // const isAnagram = function(s, t) {
-//     if (s.length !== t.length) return false;
+//     let sLen = s.length;
+//     let tLen = t.length;
 
-//     const map = new Map();
-//     [...t].forEach(letter => map.set(letter, (map.get(letter) || 0) + 1));
-//     for (let letter of s) {
-//         if (!map.has(letter)) return false;
-//         if (map.get(letter) - 1 < 0) return false;
-//         map.set(letter, map.get(letter) - 1);
+//     if (sLen !== tLen) return false;
+
+//     const mapa = new Map();
+
+//     for (let i = 0; i < sLen; i++) {
+//         mapa.set(s[i], (mapa.get(s[i]) || 0) + 1);
+//         mapa.set(t[i], (mapa.get(t[i]) || 0) - 1);
 //     }
+
+//     let iterator = mapa.values();
+
+//     for (let i = 0; i < mapa.size; i++) {
+//         if (iterator.next().value !== 0) return false;
+//     }
+
 //     return true;
 // };
 

@@ -3302,6 +3302,26 @@
 
 // addBinary("11", "1");
 
+// 344. Reverse String
+
+// const reverseString = function(s) {
+//     let j = s.length - 1;
+//     let temp;
+//     let i = 0;
+//     while (i < j) {
+//         temp = s[i];
+//         s[i] = s[j];
+//         s[j] = temp;
+//         i++;
+//         j--;
+//     }
+// };
+
+// reverseString(["h", "e", "l", "l", "o"]);
+
+
+
+
 
 
 

@@ -3319,9 +3319,30 @@
 
 // reverseString(["h", "e", "l", "l", "o"]);
 
+// 345. Reverse Vowels of a String
 
+// const reverseVowels = function(s) {
+//     const str = [...s];
+//     const seta = new Set([..."aeiouAEIOU"]);
+//     let left = 0;
+//     let right = str.length - 1;
+//     while (left < right) {
+//         if (!seta.has(str[left])) {
+//             left++;
+//             continue;
+//         }
+//         if (!seta.has(str[right])) {
+//             right--;
+//             continue;
+//         }
+//         [str[left], str[right]] = [str[right], str[left]];
+//         left++;
+//         right--;
+//     }
+//     return str.join("");
+// };
 
-
+// reverseVowels("IceCreAm");
 
 
 

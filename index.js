@@ -3360,6 +3360,22 @@
 
 // maximumTripletValue([12, 6, 1, 2, 7]);
 
+// 1991. Find the Middle Index in Array
+
+// const findMiddleIndex = function(nums) {
+//     let total = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         total += nums[i];
+//     }
+//     let sum = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (total - nums[i] - sum === sum) return i;
+//         sum += nums[i];
+//     }
+//     return -1;
+// };
+
+// findMiddleIndex([2, 3, -1, 8, 4]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

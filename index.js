@@ -3344,6 +3344,21 @@
 
 // reverseVowels("IceCreAm");
 
+// 2874. Maximum Value of an Ordered Triplet II
+
+// const maximumTripletValue = function(nums) {
+//     let maxNum = 0;
+//     let maxDiff = 0;
+//     let maxTriple = 0;
+//     for (let i = 2; i < nums.length; i++) {
+//         maxNum = Math.max(maxNum, nums[i - 2]);
+//         maxDiff = Math.max(maxDiff, maxNum - nums[i - 1]);
+//         maxTriple = Math.max(maxTriple, maxDiff * nums[i]);
+//     }
+//     return maxTriple;    
+// };
+
+// maximumTripletValue([12, 6, 1, 2, 7]);
 
 
 

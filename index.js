@@ -3360,7 +3360,7 @@
 
 // maximumTripletValue([12, 6, 1, 2, 7]);
 
-// 1991. Find the Middle Index in Array
+// 1991 & 724. Find the Middle Index in Array
 
 // const findMiddleIndex = function(nums) {
 //     let total = 0;
@@ -3376,6 +3376,27 @@
 // };
 
 // findMiddleIndex([2, 3, -1, 8, 4]);
+
+// 3498. Reverse Degree of a String
+
+// const reverseDegree = function(s) {
+
+//     let total = 0;
+
+//     for (let i = 0; i < s.length; i++) {
+//         let num = 26 - (s[i].charCodeAt() - 97);
+//         total += num * (i + 1);
+//     }
+
+//     return total;
+// };
+
+// reverseDegree("abc");
+
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -3431,6 +3431,19 @@
 
 // minOperations([3, 9, 7], 5);
 
+// 1637. Widest Vertical Area Between Two Points Containing No Points
+
+// const maxWidthOfVerticalArea = function(points) {
+//     let sorted = points.map(el => el[0]).sort((a, b) => b - a);
+//     let maxDiff = 0;
+//     for (let i = 1; i < points.length; i++) {
+//         let diff = sorted[i - 1] - sorted[i]
+//         maxDiff = Math.max(maxDiff, diff);
+//     }
+//     return maxDiff;
+// };
+
+// maxWidthOfVerticalArea([[8, 7], [9, 9], [7, 4], [9, 7]]);
 
 
 

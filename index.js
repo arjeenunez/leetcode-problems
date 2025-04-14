@@ -3541,6 +3541,20 @@
 
 // finalString("string")
 
+// 3516. Find Closest Person
+
+// const findClosest = function(x, y, z) {
+//     return Math.abs(x - z) > Math.abs(y - z) ? 2 : Math.abs(x - z) === Math.abs(y - z) ? 0 : 1;
+// };
+
+// findClosest(1, 5, 3);
+
+
+
+
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

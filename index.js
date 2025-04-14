@@ -3525,7 +3525,21 @@
 
 // reduce([1, 2, 3, 4], function sum(accum, curr) { return accum + curr }, 0);
 
+// 2810. Faulty Keyboard
 
+// const finalString = function(s) {
+//     let str = [];
+//     for (let i = 0; i < s.length; i++) {
+//         if (s[i] === "i") {
+//             str.reverse();
+//             continue;
+//         }
+//         str.push(s[i]);
+//     }
+//     return str.join("");
+// };
+
+// finalString("string")
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -3513,6 +3513,19 @@
 
 // removeOuterParentheses("(()())(())(()(()))");
 
+// 2626. Array Reduce Transformation
+
+// const reduce = function(nums, fn, init) {
+//     let total = init;
+//     for (let i = 0; i < nums.length; i++) {
+//         total = fn(total, nums[i]);
+//     }
+//     return total;
+// };
+
+// reduce([1, 2, 3, 4], function sum(accum, curr) { return accum + curr }, 0);
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

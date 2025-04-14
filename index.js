@@ -3447,29 +3447,46 @@
 
 // 1678. Goal Parser Interpretation
 
-const interpret = function(command) {
-    let str = "";
-    for (let i = 0; i < command.length; i++) {
-        let newStr = command.slice(i);
-        if (newStr.startsWith("G")) {
-            str += "G";
-            continue;
-        }
-        if (newStr.startsWith("()")) {
-            str += "o";
-            i++;
-            continue;
-        }
-        if (newStr.startsWith("(al)")) {
-            str += "al";
-            i += 3
-            continue;
-        }
-    }
-    return str;
-};
+// const interpret = function(command) {
+//     let str = "";
+//     for (let i = 0; i < command.length; i++) {
+//         let newStr = command.slice(i);
+//         if (newStr.startsWith("G")) {
+//             str += "G";
+//             continue;
+//         }
+//         if (newStr.startsWith("()")) {
+//             str += "o";
+//             i++;
+//             continue;
+//         }
+//         if (newStr.startsWith("(al)")) {
+//             str += "al";
+//             i += 3
+//             continue;
+//         }
+//     }
+//     return str;
+// };
 
-interpret("G()(al)");
+// interpret("G()(al)");
+
+// 2894. Divisible and Non-divisible Sums Difference
+
+//  const differenceOfSums = function(n, m) {
+//     let total = 0;
+//     for (let i = 1; i <= n; i++) {
+//         if (i % m !== 0) {
+//             total += i;
+//         } else {
+//             total -= i;
+//         }
+//     }
+//     return total;
+//  };
+
+// differenceOfSums(10, 3);
+
 
 
 

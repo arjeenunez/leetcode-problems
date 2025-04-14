@@ -3422,7 +3422,14 @@
 
 // getSneakyNumbers([0, 1, 1, 0]);
 
+// 3512. Minimum Operations to Make Array Sum Divisible by K
 
+// const minOperations = function(nums, k) {
+//     const sum = nums.reduce((total, num) => total + num);
+//     return sum % k;
+// };
+
+// minOperations([3, 9, 7], 5);
 
 
 

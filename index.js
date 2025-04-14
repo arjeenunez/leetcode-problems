@@ -3495,6 +3495,24 @@
 
 // numJewelsInStones("aA", "aAAbbbb");
 
+// 1021. Remove Outermost Parentheses
+
+// const removeOuterParentheses = function(s) {
+//     let str = "";
+//     let total = 0;
+//     let windowStart = 0;
+//     for (let windowEnd = 0; windowEnd < s.length; windowEnd++) {
+//         s[windowEnd] === "(" ? total++ : total--;
+//         if (!total) {
+//             str += s.slice(windowStart + 1, windowEnd);
+//             windowStart = windowEnd + 1;
+//         }
+//     }
+//     return str;
+// };
+
+// removeOuterParentheses("(()())(())(()(()))");
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

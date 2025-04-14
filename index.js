@@ -3445,6 +3445,34 @@
 
 // maxWidthOfVerticalArea([[8, 7], [9, 9], [7, 4], [9, 7]]);
 
+// 1678. Goal Parser Interpretation
+
+const interpret = function(command) {
+    let str = "";
+    for (let i = 0; i < command.length; i++) {
+        let newStr = command.slice(i);
+        if (newStr.startsWith("G")) {
+            str += "G";
+            continue;
+        }
+        if (newStr.startsWith("()")) {
+            str += "o";
+            i++;
+            continue;
+        }
+        if (newStr.startsWith("(al)")) {
+            str += "al";
+            i += 3
+            continue;
+        }
+    }
+    return str;
+};
+
+interpret("G()(al)");
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

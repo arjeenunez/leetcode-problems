@@ -3487,8 +3487,13 @@
 
 // differenceOfSums(10, 3);
 
+// 771. Jewels and Stones
 
+// const numJewelsInStones = function(jewels, stones) {
+//     return stones.split("").filter(el => jewels.includes(el)).length;
+// };
 
+// numJewelsInStones("aA", "aAAbbbb");
 
 
 

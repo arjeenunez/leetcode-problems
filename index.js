@@ -3414,6 +3414,15 @@
 
 // countGoodTriplets([3, 0, 1, 1, 9, 7], 7, 2, 3);
 
+// 3289. The Two Sneaky Numbers of Digitville
+
+// const getSneakyNumbers = function(nums) {
+//     return nums.filter((el, i, arr) => i !== arr.indexOf(el));
+// };
+
+// getSneakyNumbers([0, 1, 1, 0]);
+
+
 
 
 

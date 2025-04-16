@@ -3549,6 +3549,21 @@
 
 // findClosest(1, 5, 3);
 
+// 645. Set Mismatch
+
+// const findErrorNums = function(nums) {
+//     const check1 = new Set(), check2 = new Set();
+//     let result = [];
+//     for (let i = 0; i < nums.length; i++) {
+//         if (check1.has(nums[i])) result[0] = nums[i]
+//         check1.add(nums[i]);
+//         check2.add(i + 1);
+//     }
+//     result[1] = check1.symmetricDifference(check2).values().next().value;
+//     return result;
+// };
+
+// findErrorNums([1, 2, 2, 4]);
 
 
 

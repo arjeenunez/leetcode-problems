@@ -3584,6 +3584,26 @@
 
 // findMaxAverage([1, 12, -5, -6, 50, 3], 4);
 
+// 605. Can Place Flowers
+
+// const canPlaceFlowers = function(flowerbed, n) {
+//     for (let i = 0; i <= flowerbed.length; i++) {
+//         if (!n) return true;
+//         let numL = flowerbed[i - 1] ?? 0;
+//         let num = flowerbed[i];
+//         let numR = flowerbed[i + 1] ?? 0;
+//         if (!numL && num === 0 && !numR) {
+//             flowerbed[i] = 1;
+//             n--;
+//         }
+//     }
+//     return false;
+// };
+
+// canPlaceFlowers([1, 0, 0, 0, 1, 0, 0], 2);
+
+
+
 
 
 

@@ -3565,8 +3565,24 @@
 
 // findErrorNums([1, 2, 2, 4]);
 
+// 643. Maximum Average Subarray I
 
+// const findMaxAverage = function(nums, k) {
+//     let windowStart = 0;
+//     let currentTotal = 0;
+//     let maxTotal = -Infinity;
+//     for (let windowEnd = 0; windowEnd < nums.length; windowEnd++) {
+//         currentTotal += nums[windowEnd];
+//         if (1 + windowEnd - windowStart >= k) {
+//             maxTotal = Math.max(maxTotal, currentTotal);
+//             currentTotal -= nums[windowStart];
+//             windowStart++;
+//         }
+//     }
+//     return maxTotal / k;
+// };
 
+// findMaxAverage([1, 12, -5, -6, 50, 3], 4);
 
 
 

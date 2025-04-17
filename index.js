@@ -3684,6 +3684,20 @@
 
 // maxSubsequence([2, 1, 3, 3], 2);
 
+// 1848. Minimum Distance to the Target Element
+
+// const getMinDistance = function(nums, target, start) {
+//     let minVal = Infinity;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] === target) {
+//             minVal = Math.min(minVal, Math.abs(i - start));
+//         }
+//     }
+//     return minVal;
+// };
+
+// getMinDistance([1, 2, 3, 4, 5], 5, 3);
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

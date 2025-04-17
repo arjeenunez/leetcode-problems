@@ -3619,6 +3619,25 @@
 
 // missingInteger([1, 2, 3, 2, 5]);
 
+// 1668. Maximum Repeating Substring
+
+// const maxRepeating = function(sequence, word) {
+//     let maxSum = 0;
+//     for (let i = 0; i < sequence.length; i++) {
+//         let currSum = 0;
+//         let j = i;
+//         while(sequence.startsWith(word, j)) {
+//             currSum++;
+//             j += word.length;
+//         }
+//         maxSum = Math.max(maxSum, currSum);
+//     }
+//     return maxSum;
+// };
+
+// maxRepeating("ababc", "ab");
+
+
 
 
 

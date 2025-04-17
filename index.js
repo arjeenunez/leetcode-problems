@@ -3637,6 +3637,22 @@
 
 // maxRepeating("ababc", "ab");
 
+// 2739. Total Distance Traveled
+
+// const distanceTraveled = function(mainTank, additionalTank) {
+//     let total = 0;
+//     for (let i = 1; i <= mainTank; i++) {
+//         if (i % 5 === 0 && additionalTank) {
+//             mainTank++;
+//             additionalTank--;
+//         }
+//         total += 10;
+//     }
+//     return total;
+// };
+
+// distanceTraveled(5, 10);
+
 
 
 

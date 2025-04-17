@@ -3602,6 +3602,24 @@
 
 // canPlaceFlowers([1, 0, 0, 0, 1, 0, 0], 2);
 
+// 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum
+
+// const missingInteger = function(nums) {
+//     let total = nums[0];
+//     let i = 1;
+//     while (nums[i] === nums[i - 1] + 1) {
+//         total += nums[i];
+//         i++;
+//     }
+//     while (nums.includes(total)) {
+//         total++;
+//     }
+//     return total;
+// };
+
+// missingInteger([1, 2, 3, 2, 5]);
+
+
 
 
 

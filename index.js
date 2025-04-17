@@ -3653,8 +3653,23 @@
 
 // distanceTraveled(5, 10);
 
+// 1013. Partition Array Into Three Parts With Equal Sum
 
+// const canThreePartsEqualSum = function(arr) {
+//     const subSum = arr.reduce((total, el) => total + el) / 3;
+//     let total = 0;
+//     let counter = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         total += arr[i];
+//         if (total === subSum) {
+//             counter++;
+//             total = 0;
+//         }
+//     }
+//     return counter >= 3;
+// };
 
+// canThreePartsEqualSum([0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1]);
 
 
 

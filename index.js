@@ -3671,7 +3671,18 @@
 
 // canThreePartsEqualSum([0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1]);
 
+// 2099. Find Subsequence of Length K With the Largest Sum
 
+// const maxSubsequence = function(nums, k) {
+//     return nums
+//         .map((el, i) => [el, i])
+//         .sort((a, b) => a[0] - b[0])
+//         .slice(-k)
+//         .sort((a, b) => a[1] - b[1])
+//         .map(el => el[0]);
+// };
+
+// maxSubsequence([2, 1, 3, 3], 2);
 
 
 

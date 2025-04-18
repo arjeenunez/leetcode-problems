@@ -3783,6 +3783,39 @@ const finalPrices = function(prices) {
 
 finalPrices([8, 4, 6, 2, 3]);
 
+// 38. Count and Say
+
+// const countAndSay = function(n) {
+
+//     const conv = function (str) {
+//         let start = 0;
+//         let arr = [];
+//         for (let i = 0; i <= str.length; i++) {
+//             if (!str[i - 1]) continue;
+//             if (str[i] !== str[i - 1]) {
+//                 arr.push(str.slice(start, i));
+//                 start = i;
+//             }
+//         }
+//         return arr;
+//     }
+
+//     let result = "1";
+    
+//     for (let i = 2; i <= n; i++) {
+//         result = conv(result).map(el => `${el.length}${el[0]}`).join("");
+//     }
+//     return result;
+// };
+
+// countAndSay(4);
+
+
+
+
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

@@ -3698,6 +3698,35 @@
 
 // getMinDistance([1, 2, 3, 4, 5], 5, 3);
 
+// 953. Verifying an Alien Dictionary
+
+// const isAlienSorted = function(words, order) {
+//     if (words.length === 1 || !words.length) return true;
+//     const hash = new Map(Array.from({length: 26}, (el, i) => [order[i], i]));
+//     for (let i = 0; i < words.length; i++) {
+//         let word1 = words[i - 1];
+//         let word2 = words[i];
+//         if (!word1 || !word2) continue;
+//         let j = 0;
+//         while (word1[j] || word2[j]) {
+//             let letter1 = hash.get(word1[j]) ?? -1;
+//             let letter2 = hash.get(word2[j]) ?? -1;
+//             j++;
+//             if (letter1 === letter2) continue;
+//             if (letter1 < letter2) break;
+//             if (letter1 > letter2) return false;
+//         }
+//     }
+//     return true;
+// };
+
+// isAlienSorted(["hello", "leetcode"], "hlabcdefgijkmnopqrstuvwxyz");
+
+
+
+
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

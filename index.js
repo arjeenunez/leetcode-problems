@@ -3759,6 +3759,29 @@
 
 // nextGreaterElements([1, 2, 1]);
 
+// 1475. Final Prices With a Special Discount in a Shop
+
+const finalPrices = function(prices) {
+    const result = [];
+    const stack = [];
+    const n = prices.length;
+    for (let i = n - 1; i >= 0; i--) {
+        while (stack.length && stack.at(-1) > prices[i]) {
+            stack.pop();
+        }
+
+        if (stack.length) {
+            result[i] = prices[i] - stack.at(-1);
+        } else {
+            result[i] = prices[i]
+        }
+        
+        stack.push(prices[i]);
+    }
+    return result;
+};
+
+finalPrices([8, 4, 6, 2, 3]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

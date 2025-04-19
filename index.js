@@ -3761,27 +3761,27 @@
 
 // 1475. Final Prices With a Special Discount in a Shop
 
-const finalPrices = function(prices) {
-    const result = [];
-    const stack = [];
-    const n = prices.length;
-    for (let i = n - 1; i >= 0; i--) {
-        while (stack.length && stack.at(-1) > prices[i]) {
-            stack.pop();
-        }
+// const finalPrices = function(prices) {
+//     const result = [];
+//     const stack = [];
+//     const n = prices.length;
+//     for (let i = n - 1; i >= 0; i--) {
+//         while (stack.length && stack.at(-1) > prices[i]) {
+//             stack.pop();
+//         }
 
-        if (stack.length) {
-            result[i] = prices[i] - stack.at(-1);
-        } else {
-            result[i] = prices[i]
-        }
+//         if (stack.length) {
+//             result[i] = prices[i] - stack.at(-1);
+//         } else {
+//             result[i] = prices[i]
+//         }
         
-        stack.push(prices[i]);
-    }
-    return result;
-};
+//         stack.push(prices[i]);
+//     }
+//     return result;
+// };
 
-finalPrices([8, 4, 6, 2, 3]);
+// finalPrices([8, 4, 6, 2, 3]);
 
 // 38. Count and Say
 
@@ -3810,9 +3810,51 @@ finalPrices([8, 4, 6, 2, 3]);
 
 // countAndSay(4);
 
+// 2824. Count Pairs Whose Sum is Less than Target
 
+// const countPairs = function(nums, target) {
+//     nums.sort((a, b) => a - b);
+//     let total = 0, l = 0, r = nums.length - 1;
+//     while (l < r) {
+//         if (nums[l] + nums[r] < target) {
+//             total += r - l;
+//             l++;
+//         } else {
+//             r--;
+//         }
+//     }
+//     return total;
+// };
 
+// countPairs([-1, 1, 2, 3, 1], 2);
 
+// 2563. Count the Number of Fair Pairs
+
+// const countFairPairs = function(nums, lower, upper) {
+
+//     nums.sort((a, b) => a - b);
+    
+//     const findPair = (arr, lim) => {
+//         let l = 0;
+//         let r = arr.length - 1;
+//         let total = 0;
+
+//         while (l < r) {
+//             let sum = arr[l] + arr[r];
+//             if (sum <= lim) {
+//                 total += r - l;
+//                 l++;
+//             } else {
+//                 r--;
+//             }
+//         }
+//         return total;
+//     }
+
+//     return findPair(nums, upper) - findPair(nums, lower - 1);
+// };
+
+// countFairPairs([0, 1, 7, 4, 4, 5], 3, 6);
 
 
 

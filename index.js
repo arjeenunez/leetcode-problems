@@ -3887,6 +3887,34 @@
 
 // countLargestGroup(13);
 
+// 5. Longest Palindromic Substring
+
+// const longestPalindrome = function(s) {
+//     if (!s.length) return "";
+//     let start = end = 0;
+
+//     const isPalindrome = (str, left, right) => {
+//         while (str[left] === str[right] && left >= 0 && right < str.length) {
+//             right++;
+//             left--;
+//         }
+//         return right - left - 1;
+//     }
+
+//     for (let i = 0; i < s.length; i++) {
+//         let len1 = isPalindrome(s, i, i );
+//         let len2 = isPalindrome(s, i, i + 1);
+//         let len = Math.max(len1, len2);
+        
+//         if (len > end - start) {
+//             start = i - Math.floor((len - 1) / 2);
+//             end = i + Math.floor(len / 2);
+//         }
+//     }
+//     return s.slice(start, end + 1);
+// };
+
+// longestPalindrome("babad");
 
 
 

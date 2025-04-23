@@ -3856,6 +3856,42 @@
 
 // countFairPairs([0, 1, 7, 4, 4, 5], 3, 6);
 
+// 1399. Count Largest Group
+
+// const countLargestGroup = function(n) {
+//     let highest = 0;
+//     let arr = [];
+//     let total = 0;
+
+//     const sumUp = function(num) {
+//         let sum = 0;
+//         while (num > 0) {
+//             sum += num % 10;
+//             num = Math.floor(num / 10);
+//         }
+//         return sum;
+//     }
+    
+//     for (let i = 0; i < n; i++) {
+//         let num = i + 1;
+//         let sum = sumUp(num);
+//         arr[sum] = (arr[sum] ?? 0) + 1;
+//         if (arr[sum] > highest) {
+//             highest = arr[sum];
+//             total = 0;
+//         }
+//         if (arr[sum] === highest) total++;
+//     }
+//     return total;
+// };
+
+// countLargestGroup(13);
+
+
+
+
+
+
 
 
 

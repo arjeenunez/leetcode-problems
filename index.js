@@ -3916,8 +3916,32 @@
 
 // longestPalindrome("babad");
 
+// 2962. Count Subarrays Where Max Element Appears at Least K Times
 
+// const countSubarrays = function(nums, k) {
+//     let start = end = 0;
+//     let total = 0;
+//     let maxNum = Math.max(...nums);
+//     let counter = nums[end] === maxNum ? 1 : 0;
 
+//     while (end < nums.length) {
+//         if (counter >= k) {
+//             total += nums.length - end;
+//             if (nums[start] === maxNum) {
+//                 start++;
+//                 counter--;
+//             } else {
+//                 start++;
+//             }
+//         } else {
+//             end++;
+//             if (nums[end] === maxNum) counter++;
+//         }
+//     }
+//     return total;
+// };
+
+// countSubarrays([61, 23, 38, 23, 56, 40, 82, 56, 82, 82, 82, 70, 8, 69, 8, 7, 19, 14, 58, 42, 82, 10, 82, 78, 15, 82], 2);
 
 
 

@@ -3943,6 +3943,25 @@
 
 // countSubarrays([61, 23, 38, 23, 56, 40, 82, 56, 82, 82, 82, 70, 8, 69, 8, 7, 19, 14, 58, 42, 82, 10, 82, 78, 15, 82], 2);
 
+// 350. Intersection of Two Arrays II
+
+// const intersect = function(nums1, nums2) {
+//     const hash = new Map();
+//     for (let i = 0; i < nums1.length; i++) {
+//         hash.set(nums1[i], (hash.get(nums1[i]) || 0) + 1);
+//     }
+
+//     return nums2.filter(el => {
+//         let diff = hash.get(el) - 1;
+//         if (diff >= 0) {
+//             hash.set(el, diff);
+//             return true;
+//         }
+//     });
+// };
+
+// intersect([1, 2, 2, 1], [2, 2]);
+
 
 
 

@@ -3962,9 +3962,17 @@
 
 // intersect([1, 2, 2, 1], [2, 2]);
 
+// 2215. Find the Difference of Two Arrays
 
+// var findDifference = function(nums1, nums2) {
 
+//     const filtered1 = new Set(nums1);
+//     const filtered2 = new Set(nums2);
+//     return [[...filtered1.difference(filtered2)], [...filtered2.difference(filtered1)]];
 
+// };
+
+// findDifference([1, 2, 3], [2, 4, 6]);
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

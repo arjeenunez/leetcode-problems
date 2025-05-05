@@ -3988,6 +3988,21 @@
 // intersection([[3, 1, 2, 4], [2, 3], [2]]);
 // intersection([[1, 2, 3], [4, 5], [6]]);
 
+// 231. Power of Two
+
+// const isPowerOfTwo = function(n) {
+//     let i = 0;
+//     while ((2 ** i) <= n) {
+//         if (2 ** i === n) return true;
+//         i++;
+//     }
+//     return false;
+// };
+
+// isPowerOfTwo(1);
+// isPowerOfTwo(16);
+// isPowerOfTwo(3);
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

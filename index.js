@@ -4014,6 +4014,23 @@
 
 // findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]);
 
+// 1920. Build Array from Permutation
+
+// const buildArray = function(nums) {
+//     let i = 0;
+//     while (i < 1) {
+//         nums = nums.map((el, i, arr) => arr[el]);
+//         i++;
+//     }
+//     return nums;
+// };
+
+// buildArray([0, 2, 1, 5, 3, 4]);
+
+
+
+
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

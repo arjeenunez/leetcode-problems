@@ -4064,6 +4064,20 @@
 
 // reverseStr("onetwoten", 3);
 
+// 2600. K Items With the Maximum Sum
+
+// const kItemsWithMaximumSum = function(numOnes, numZeros, numNegOnes, k) {
+//     let result = 0;
+//     if (k - numOnes <= 0) return k;
+//     k -= numOnes;
+//     result += numOnes;
+//     if (k - numZeros <= 0) return result;
+//     k -= numZeros;
+//     if (k - numNegOnes <= 0) return result - k;
+//     return result - numNegOnes
+// };
+
+// kItemsWithMaximumSum(3, 2, 0, 2);
 
 
 

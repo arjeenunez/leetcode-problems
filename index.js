@@ -4079,6 +4079,44 @@
 
 // kItemsWithMaximumSum(3, 2, 0, 2);
 
+// 748. Shortest Completing Word
+
+// const shortestCompletingWord = function(licensePlate, words) {
+//     licensePlate = licensePlate.toLowerCase();
+
+//     const hash = new Map();
+
+//     for (const char of licensePlate) {
+//         if (isNaN(char)) hash.set(char, (hash.get(char) || 0) + 1);
+//     }
+
+//     let result = "".padStart(15, "s");
+
+//     for (const word of words) {
+//         if (result.length <= word.length) continue;
+//         let repeatHash = new Map(hash);
+//         for (const letter of word) {
+//             if (repeatHash.has(letter)) {
+//                 const occurrence = repeatHash.get(letter) - 1;
+//                 if (occurrence <= 0) {
+//                     repeatHash.delete(letter);
+//                     continue;
+//                 }
+//                 repeatHash.set(letter, occurrence);
+//             }
+//         }
+//         if (!repeatHash.size) {
+//             if (word.length < result.length) {
+//                 result = word;
+//             }
+//         }
+//     }
+//     return result;
+// };
+
+// shortestCompletingWord("1s3 456", ["looks", "pest", "stew", "show"]);
+
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

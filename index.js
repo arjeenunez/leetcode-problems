@@ -4041,6 +4041,31 @@
 
 // maximumDifference([7, 1, 5, 4]);
 
+// 541. Reverse String II
+
+// const reverseStr = function(s, k) {
+
+//     const revStr = str => str.split("").reverse().join("");
+//     let shouldReverse = true;
+//     let pie = "";
+
+//     while (s.length >= k) {
+//         shouldReverse ? pie += revStr(s.slice(0, k)) : pie += s.slice(0, k);
+//         s = s.slice(k);
+//         shouldReverse = !shouldReverse;
+//     }
+
+//     if (s.length) {
+//         shouldReverse ? pie += revStr(s) : pie += s;
+//     }
+
+//     return pie;
+// };
+
+// reverseStr("onetwoten", 3);
+
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

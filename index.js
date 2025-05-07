@@ -4128,6 +4128,19 @@
 
 // findLUSlength("aaa", "bbb");
 
+// 2210. Count Hills and Valleys in an Array
+
+// const countHillValley = function(nums) {
+//     let result = 0;
+//     let arr = nums.filter((el, i, arr) => el !== arr[i - 1]);
+//     for (let i = 1; i < arr.length - 1; i++) {
+//         if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1]) result++;
+//         if (arr[i - 1] > arr[i] && arr[i] < arr[i + 1]) result++;
+//     }
+//     return result;
+// };
+
+// countHillValley([2, 4, 1, 1, 6, 5]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

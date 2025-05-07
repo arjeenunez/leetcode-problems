@@ -4142,6 +4142,25 @@
 
 // countHillValley([2, 4, 1, 1, 6, 5]);
 
+// 1869. Longer Contiguous Segments of Ones than Zeros
+
+// const checkZeroOnes = function(s) {
+//     let start = maxOne = maxZero = 0;
+//     for (let end = 0; end < s.length; end++) {
+//         if (s[end] !== s[end - 1]) {
+//             start = end;
+//         }
+//         if (s[end] === "1") {
+//             maxOne = Math.max(maxOne, 1 + end - start);
+//         } else {
+//             maxZero = Math.max(maxZero, 1 + end - start);
+//         }
+//     }
+//     return maxOne > maxZero;
+// };
+
+// checkZeroOnes("1101");
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

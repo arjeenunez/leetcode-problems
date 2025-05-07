@@ -4116,6 +4116,17 @@
 
 // shortestCompletingWord("1s3 456", ["looks", "pest", "stew", "show"]);
 
+// 521. Longest Uncommon Subsequence I
+
+// const findLUSlength = function(a, b) {
+//     const getLengthIfCommon = (str1, str2) => str1.includes(str2) ? -1 : str2.length;
+//     const aLength = getLengthIfCommon(b, a);
+//     const bLength = getLengthIfCommon(a, b);
+
+//     return Math.max(aLength, bLength);
+// };
+
+// findLUSlength("aaa", "bbb");
 
 
 

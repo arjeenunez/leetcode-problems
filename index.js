@@ -4027,8 +4027,19 @@
 
 // buildArray([0, 2, 1, 5, 3, 4]);
 
+// 2016. Maximum Difference Between Increasing Elements
 
+// const maximumDifference = function(nums) {
+//     let currentMin = Infinity;
+//     let maxDiff = -1;
+//     for (let i = 0; i < nums.length; i++) {
+//         currentMin = Math.min(currentMin, nums[i]);
+//         if (nums[i] > currentMin) maxDiff = Math.max(maxDiff, nums[i] - currentMin);
+//     }
+//     return maxDiff;
+// };
 
+// maximumDifference([7, 1, 5, 4]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

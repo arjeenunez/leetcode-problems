@@ -4163,16 +4163,37 @@
 
 // 1550. Three Consecutive Odds
 
-const threeConsecutiveOdds = function(arr) {
-    let count = 0;
-    for (const num of arr) {
-        count = num % 2 === 1 ? count + 1 : 0;
-        if (count > 2) return true;
-    }
-    return false;
-};
+// const threeConsecutiveOdds = function(arr) {
+//     let count = 0;
+//     for (const num of arr) {
+//         count = num % 2 === 1 ? count + 1 : 0;
+//         if (count > 2) return true;
+//     }
+//     return false;
+// };
 
-threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]);
+// threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]);
+
+// 989. Add to Array-Form of Integer
+
+// const addToArrayForm = function(num, k) {
+
+//     for (let i = num.length - 1; i >= 0; i--) {
+//         k += num[i];
+//         num[i] = k % 10;
+//         k = Math.floor(k / 10);
+//     }
+
+//     while (k > 0) {
+//         num.unshift(k % 10);
+//         k = Math.floor(k / 10);
+//     }
+    
+//     return num;
+
+// };
+
+// addToArrayForm([1,2,6,3,0,7,1,7,1,9,7,5,6,6,4,4,0,0,6,3], 516)
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

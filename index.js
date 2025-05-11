@@ -4161,6 +4161,19 @@
 
 // checkZeroOnes("1101");
 
+// 1550. Three Consecutive Odds
+
+const threeConsecutiveOdds = function(arr) {
+    let count = 0;
+    for (const num of arr) {
+        count = num % 2 === 1 ? count + 1 : 0;
+        if (count > 2) return true;
+    }
+    return false;
+};
+
+threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]);
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS

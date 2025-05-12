@@ -4193,7 +4193,43 @@
 
 // };
 
-// addToArrayForm([1,2,6,3,0,7,1,7,1,9,7,5,6,6,4,4,0,0,6,3], 516)
+// addToArrayForm([1,2,6,3,0,7,1,7,1,9,7,5,6,6,4,4,0,0,6,3], 516);
+
+// 2094. Finding 3-Digit Even Numbers
+
+// const findEvenNumbers = function(digits) {
+
+//     const digitArr = new Array(10).fill(0);
+
+//     for (const digit of digits) {
+//         digitArr[digit]++;
+//     }
+
+//     const result = [];
+
+//     for (let i = 100; i < 1000; i += 2) {
+//         let dig3 = Math.floor(i / 100);
+//         let dig2 = Math.floor((i % 100) / 10);
+//         let dig1 = i % 10;
+//         let exists = true;
+
+//         if (--digitArr[dig3] < 0) exists = false;
+//         if (--digitArr[dig2] < 0) exists = false;
+//         if (--digitArr[dig1] < 0) exists = false;
+
+//         if (exists) result.push(i);
+
+//         digitArr[dig3]++;
+//         digitArr[dig2]++;
+//         digitArr[dig1]++;
+
+//     }
+
+//     return result;
+
+// };
+
+// findEvenNumbers([2, 1, 3, 0]);
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

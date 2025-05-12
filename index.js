@@ -4231,6 +4231,28 @@
 
 // findEvenNumbers([2, 1, 3, 0]);
 
+// 1184. Distance Between Bus Stops
+
+// const distanceBetweenBusStops = function(distance, start, destination) {
+//     let clockwise = 0;
+//     let counterClockwise = 0;
+//     let i = start;
+//     while (i !== destination) {
+//         clockwise += distance[i];
+//         i++;
+//         if (i >= distance.length) i = 0;
+//     }
+//     i = start;
+//     while (i !== destination) {
+//         i--;
+//         if (i < 0) i = distance.length - 1;
+//         counterClockwise += distance[i];
+//     }
+//     return Math.min(clockwise, counterClockwise);
+// };
+
+// distanceBetweenBusStops([1, 2, 3, 4], 0, 1);
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // RECURSIVE FUNCTION PROBLEMS
